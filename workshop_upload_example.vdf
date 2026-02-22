@@ -1,0 +1,16 @@
+"workshopitem"
+{
+	"appid"		"289070"
+	"publishedfileid"		"0"
+	"contentfolder"		"path"
+	"previewfile"		"path"
+	"visibility"		"0" // 0 for public
+	"title"		"title"
+	"description"		"xxx"
+	"changenote"		"xxx" // initial release / v2,v3,v4, bug fix, etc
+	"tags"
+	{
+		"0"		"Mod"
+	  //"1" 	"Leaders"
+	}
+}
