@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="SECRETSOCIETY_OLLIN_TEYOLIA" Kind="KIND_SECRETSOCIETY"/>
+		<Row Type="GOVERNOR_OLLIN_TEYOLIA" Kind="KIND_GOVERNOR"/>
+		<Row Type="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4" Kind="KIND_GOVERNOR_PROMOTION"/>
+	</Types>
+
+	<SecretSocieties>
+		<Row SecretSocietyType="SECRETSOCIETY_OLLIN_TEYOLIA" Name="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_NAME" Description="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_DESCRIPTION" DiscoveryText="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_DISCOVERY" MembershipText="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_MEMBERSHIP" GovernorType="GOVERNOR_OLLIN_TEYOLIA" SmallIcon="Society_OwlsOfMinerva59" IconString="[ICON_SECRETSOCIETY_OWLS]" DiscoverAtNaturalWonderBaseChance="95" DiscoverAtCityStateBaseChance="300"/>
+	</SecretSocieties>
+
+	<CivilopediaPageSearchTerms>
+		<Row SectionId="CONCEPTS" PageId="SECRETSOCIETIES" Term="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_NAME"/>
+	</CivilopediaPageSearchTerms>
+
+	<Governors>
+		<Row GovernorType="GOVERNOR_OLLIN_TEYOLIA" Image="GOVERNOR_CARDINAL" Name="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_NAME" Title="LOC_SECRETSOCIETY" ShortTitle="LOC_SECRETSOCIETY" Description="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_DESCRIPTION" PortraitImage="GovernorNormalSTK_OwlsOfMinerva" PortraitImageSelected="GovernorSelectedSTK_OwlsOfMinerva" IdentityPressure="10" TransitionStrength="100"/>
+	</Governors>
+
+	<GovernorsCannotAssign>
+		<Row GovernorType="GOVERNOR_OLLIN_TEYOLIA" CannotAssign="1"/>
+	</GovernorsCannotAssign>
+
+	<GovernorPromotionSets>
+		<Row GovernorType="GOVERNOR_OLLIN_TEYOLIA" GovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1"/>
+		<Row GovernorType="GOVERNOR_OLLIN_TEYOLIA" GovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2"/>
+		<Row GovernorType="GOVERNOR_OLLIN_TEYOLIA" GovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3"/>
+		<Row GovernorType="GOVERNOR_OLLIN_TEYOLIA" GovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4"/>
+	</GovernorPromotionSets>
+
+	<GovernorPromotions>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1" Name="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1_NAME" Description="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1_DESCRIPTION" Level="0" Column="1" BaseAbility="1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2" Name="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2_NAME" Description="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2_DESCRIPTION" Level="1" Column="1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3" Name="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3_NAME" Description="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3_DESCRIPTION" Level="2" Column="1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4" Name="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4_NAME" Description="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4_DESCRIPTION" Level="3" Column="1"/>
+	</GovernorPromotions>
+
+	<GovernorPromotionConditions>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1" HiddenWithoutPrereqs="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2" HiddenWithoutPrereqs="1" EarliestGameEra="ERA_MEDIEVAL"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3" HiddenWithoutPrereqs="1" EarliestGameEra="ERA_RENAISSANCE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4" HiddenWithoutPrereqs="1" EarliestGameEra="ERA_ATOMIC"/>
+	</GovernorPromotionConditions>
+
+	<GovernorPromotionPrereqs>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2" PrereqGovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3" PrereqGovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4" PrereqGovernorPromotion="GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3"/>
+	</GovernorPromotionPrereqs>
+
+	<GovernorPromotionModifiers>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_1_YULE</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_1_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_1_JJC</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1</GovernorPromotionType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_CUL</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_PRO</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_2_DX</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_2_PRO</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2</GovernorPromotionType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_3_DWY</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_3_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3</GovernorPromotionType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4</GovernorPromotionType>
+			<ModifierId>OLLIN_TEYOLIA_4_ROCK</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4</GovernorPromotionType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+	</GovernorPromotionModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_YULE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_UNLOCK</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>XL_YULE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_JJC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_CUL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_PRO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_DX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_JJC</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_PRO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>XLYL_IMPROVE</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_3_DWY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_BUILDING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_3_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PURCHASE_COST</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_4_ROCK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_4_ROCK_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>True</RunOnce>
+			<Permanent>True</Permanent>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_YULE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_YULE</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CODE_OF_LAWS</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_JJC</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_OLLIN_POK_TA_POK</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_1_JJC</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_ARENA</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_CUL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_CUL</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_OLLIN_POK_TA_POK</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_CUL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_PRO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_PRO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_OLLIN_POK_TA_POK</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_JJC_PRO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_DX</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_DX</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_PRO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_2_PRO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_3_DWY</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PITZ_NAH</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_3_DWY</ModifierId>
+			<Name>BuildingTypeToReplace</Name>
+			<Value>BUILDING_ZOO</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_3_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>90</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_3_DISCOUNT</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PITZ_NAH</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_4_ROCK</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_4_ROCK_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLLIN_TEYOLIA_4_ROCK_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>XL_YULE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>XLYL_IMPROVE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_JJC</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>XL_YULE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XLYL_IMPROVE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>XLYL_IMPROVE</RequirementSetId>
+			<RequirementId>REQ_ANY_GL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_JJC</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_JJC</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_ANY_GL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_HAS_ANY_IMPROVEMENT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_JJC</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_JJC</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_OLLIN_POK_TA_POK</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

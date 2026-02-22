@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ENGLISH -->
+		<Row Tag="LOC_LEADER_SIYAJ_KAHK_NAME" Language="en_US">
+			<Text>Siyaj K'ahk'</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SIYAJ_KAHK_NAME" Language="en_US">
+			<Text>Celestial Fire</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SIYAJ_KAHK_DESCRIPTION" Language="en_US">
+			<Text>Ranged units receive +1 [ICON_Movement] Movement and +3 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TIKAL_SIYAJ" Language="en_US">
+			<Text>Tikal</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_MOVEMENT_NAME" Language="en_US">
+			<Text>Celestial Fire</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_MOVEMENT_DESC" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_STRENGTH_NAME" Language="en_US">
+			<Text>Celestial Fire</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_STRENGTH_DESC" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+
+		<!-- CHINESE SIMPLIFIED -->
+		<Row Tag="LOC_LEADER_SIYAJ_KAHK_NAME" Language="zh_Hans_CN">
+			<Text>西亚赫·卡克</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SIYAJ_KAHK_NAME" Language="zh_Hans_CN">
+			<Text>天空之火</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SIYAJ_KAHK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远程单位获得+1 [ICON_Movement] 移动力和+3 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TIKAL_SIYAJ" Language="zh_Hans_CN">
+			<Text>蒂卡尔</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>天空之火</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_MOVEMENT_DESC" Language="zh_Hans_CN">
+			<Text>[ICON_Movement] 移动力+1。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>天空之火</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SIYAJ_RANGED_STRENGTH_DESC" Language="zh_Hans_CN">
+			<Text>[ICON_Strength] 战斗力+3。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

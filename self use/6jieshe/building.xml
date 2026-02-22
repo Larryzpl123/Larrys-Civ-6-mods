@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_OLLIN_POK_TA_POK" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PITZ_NAH" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_OLLIN_POK_TA_POK" Name="LOC_BUILDING_OLLIN_POK_TA_POK_NAME" Description="LOC_BUILDING_OLLIN_POK_TA_POK_DESCRIPTION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="120" Entertainment="2" TraitType="TRAIT_BARBARIAN"/>
+		<Row BuildingType="BUILDING_PITZ_NAH" Name="LOC_BUILDING_PITZ_NAH_NAME" Description="LOC_BUILDING_BUILDING_PITZ_NAH_DESCRIPTION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="300" Entertainment="1" TraitType="TRAIT_BARBARIAN"/>
+	</Buildings>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_OLLIN_POK_TA_POK" ReplacesBuildingType="BUILDING_ARENA"/>
+		<Row CivUniqueBuildingType="BUILDING_PITZ_NAH" ReplacesBuildingType="BUILDING_ZOO"/>
+	</BuildingReplaces>
+
+	<BuildingPrereqs>
+		<Row Building="BUILDING_PITZ_NAH" PrereqBuilding="BUILDING_OLLIN_POK_TA_POK"/>
+	</BuildingPrereqs>
+	
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_OLLIN_POK_TA_POK" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_PITZ_NAH" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_OLLIN_POK_TA_POK" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_OLLIN_POK_TA_POK" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PITZ_NAH" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PITZ_NAH" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</Building_YieldChanges>
+	
+	<BuildingConditions>
+		<Row BuildingType="BUILDING_OLLIN_POK_TA_POK" UnlocksFromEffect="true"/>
+		<Row BuildingType="BUILDING_PITZ_NAH" UnlocksFromEffect="true"/>
+	</BuildingConditions>
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_OLLIN_POK_TA_POK</BuildingType>
+			<ModifierId>OLLIN_POK_TA_POK_SL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PITZ_NAH</BuildingType>
+			<ModifierId>PITZ_NAH_PRO</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>OLLIN_POK_TA_POK_SL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>RK_SC_DT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PITZ_NAH_PRO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>OLLIN_POK_TA_POK_SL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PITZ_NAH_PRO</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.25</Value>
+		</Row>
+		<Row>
+			<ModifierId>PITZ_NAH_PRO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RK_SC_DT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RK_SC_DT</RequirementSetId>
+			<RequirementId>REQ_RK</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RK_SC_DT</RequirementSetId>
+			<RequirementId>REQ_NO_DT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RK_SC_DT</RequirementSetId>
+			<RequirementId>REQUIRES_NO_MARKET</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_RK</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_X_POPULATION</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQ_NO_DT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_RK</RequirementId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_NO_DT</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIGHTHOUSE</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

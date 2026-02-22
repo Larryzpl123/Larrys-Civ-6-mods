@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<LeaderType>LEADER_FDR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_AMERICA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_AMERICA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_FDR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_T_ROOSEVELT</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_AMERICA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_FDR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_FDR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_T_ROOSEVELT</LeaderAbilityIcon>
+			<Portrait>LEADER_T_ROOSEVELT_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+</GameData>

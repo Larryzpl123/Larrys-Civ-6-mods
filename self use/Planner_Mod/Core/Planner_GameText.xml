@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_PLANNER_NAME" Language="en_US">
+			<Text>One City Tall Play</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PLANNER_DESCRIPTION" Language="en_US">
+			<Text>One City Tall Play Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PLANNER_ADJECTIVE" Language="en_US">
+			<Text>Planner</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_THE_PLANNER_NAME" Language="en_US">
+			<Text>The Planner</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_THE_PLANNER_QUOTE" Language="en_US">
+			<Text>"A city built with purpose is worth more than an empire built on sand."</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_THE_PLANNER_NAME" Language="en_US">
+			<Text>The Grand Plan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_THE_PLANNER_DESCRIPTION" Language="en_US">
+			<Text>[ICON_Capital] Capital receives +2 to all yields. This bonus doubles every 15 turns. (Turn 15: +4, Turn 30: +8, Turn 45: +16 ... Turn 75: +64 ...) Non-[ICON_Capital] Capital cities receive -100% to all yields.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PLANNER_NAME" Language="en_US">
+			<Text>Blueprint Mastery</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PLANNER_DESCRIPTION" Language="en_US">
+			<Text>Non-[ICON_Capital] Capital cities suffer -100 Loyalty per turn. Every [ICON_District] District, Building, and Wonder (excluding City Center and its buildings) provides +2 [ICON_Food] Food, +2 [ICON_Production] Production, +2 [ICON_Gold] Gold, and +2 [ICON_Housing] Housing. Each special district (Government Plaza, Diplomatic Quarter, Spaceport, or unique district replacement) grants one free copy of the latest unlocked Ranged unit upon completion.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLANNER_HIDDEN_NAME" Language="en_US">
+			<Text>Planner Bonus</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLANNER_HIDDEN_DESC" Language="en_US">
+			<Text>Bonus yields from The Planner's abilities.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_1" Language="en_US"><Text>Architekton</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_2" Language="en_US"><Text>Designa</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_3" Language="en_US"><Text>Prospera</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_4" Language="en_US"><Text>Schemata</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_5" Language="en_US"><Text>Planum</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_6" Language="en_US"><Text>Structura</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_7" Language="en_US"><Text>Ordinem</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_8" Language="en_US"><Text>Fundatio</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_9" Language="en_US"><Text>Symmetria</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_10" Language="en_US"><Text>Modulon</Text></Row>
+
+		<!-- Chinese -->
+		<Row Tag="LOC_CIVILIZATION_PLANNER_NAME" Language="zh_Hans_CN">
+			<Text>单城精铺文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PLANNER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单城精铺文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PLANNER_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>规划者</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_THE_PLANNER_NAME" Language="zh_Hans_CN">
+			<Text>规划者</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_THE_PLANNER_QUOTE" Language="zh_Hans_CN">
+			<Text>"一座有目标的城市，胜过建立在沙上的帝国。"</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_THE_PLANNER_NAME" Language="zh_Hans_CN">
+			<Text>宏图伟略</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_THE_PLANNER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_Capital] 首都+2全产出，之后每15回合翻倍一次。（第15回合+4，第30回合+8，第45回合+16……第75回合+64……）非 [ICON_Capital] 首都城市-100%全产出。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PLANNER_NAME" Language="zh_Hans_CN">
+			<Text>蓝图精通</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PLANNER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>非 [ICON_Capital] 首都城市-100忠诚度。每个奇观、区域和建筑（不包括市中心和市中心建筑）+2 [ICON_Food] 粮食+2 [ICON_Production] 生产力+2 [ICON_Gold] 金币+2 [ICON_Housing] 住房。每个特色区域建成后赠送一个当前解锁的最新的远程单位。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLANNER_HIDDEN_NAME" Language="zh_Hans_CN">
+			<Text>规划者加成</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLANNER_HIDDEN_DESC" Language="zh_Hans_CN">
+			<Text>来自规划者能力的产出加成。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_1" Language="zh_Hans_CN"><Text>建筑师之城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_2" Language="zh_Hans_CN"><Text>设计之都</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_3" Language="zh_Hans_CN"><Text>兴盛城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_4" Language="zh_Hans_CN"><Text>蓝图城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_5" Language="zh_Hans_CN"><Text>平面之城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_6" Language="zh_Hans_CN"><Text>结构城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_7" Language="zh_Hans_CN"><Text>秩序之城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_8" Language="zh_Hans_CN"><Text>根基城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_9" Language="zh_Hans_CN"><Text>对称之城</Text></Row>
+		<Row Tag="LOC_CITY_NAME_PLANNER_10" Language="zh_Hans_CN"><Text>模块城</Text></Row>
+	</LocalizedText>
+</GameData>

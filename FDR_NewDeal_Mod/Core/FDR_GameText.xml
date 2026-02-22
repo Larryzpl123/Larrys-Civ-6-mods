@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- English -->
+		<Row Tag="LOC_LEADER_FDR_NAME" Language="en_US">
+			<Text>Franklin D. Roosevelt</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FDR_QUOTE" Language="en_US">
+			<Text>"The only thing we have to fear is fear itself."</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FDR_NAME" Language="en_US">
+			<Text>The New Deal</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FDR_DESCRIPTION" Language="en_US">
+			<Text>[ICON_District] Commercial Hubs and their buildings provide +3 [ICON_Production] Production and -3 [ICON_Gold] Gold to the city. [ICON_Food] Farms provide -1 [ICON_Food] Food and +3 [ICON_Gold] Gold. +0.5 [ICON_Production] Production per [ICON_Citizen] Population in all cities.</Text>
+		</Row>
+
+		<!-- Chinese -->
+		<Row Tag="LOC_LEADER_FDR_NAME" Language="zh_Hans_CN">
+			<Text>富兰克林·D·罗斯福</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_FDR_QUOTE" Language="zh_Hans_CN">
+			<Text>"我们唯一需要恐惧的，就是恐惧本身。"</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FDR_NAME" Language="zh_Hans_CN">
+			<Text>新政</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FDR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_District] 商业中心及其建筑提供+3 [ICON_Production] 生产力和-3 [ICON_Gold] 金币。农场提供-1 [ICON_Food] 粮食和+3 [ICON_Gold] 金币。每个 [ICON_Citizen] 人口+0.5 [ICON_Production] 生产力。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

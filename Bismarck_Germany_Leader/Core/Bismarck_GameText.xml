@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ==================== ENGLISH ==================== -->
+		<Row Language="en_US" Tag="LOC_LEADER_BISMARCK_NAME">
+			<Text>Otto von Bismarck</Text>
+		</Row>
+
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_BISMARCK_ABILITY_NAME">
+			<Text>Iron and Blood</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_BISMARCK_ABILITY_DESCRIPTION">
+			<Text>City gets +1 [ICON_Production] Production and +1 [ICON_Gold] Gold.</Text>
+		</Row>
+
+		<Row Language="en_US" Tag="LOC_AGENDA_BISMARCK_NAME">
+			<Text>Realpolitik</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_AGENDA_BISMARCK_DESCRIPTION">
+			<Text>Respects civilizations with strong [ICON_Production] Production and [ICON_Gold] Gold output. Dislikes civilizations with weak economies.</Text>
+		</Row>
+
+		<!-- ==================== 简体中文 ==================== -->
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_BISMARCK_NAME">
+			<Text>奥托·冯·俾斯麦</Text>
+		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_BISMARCK_ABILITY_NAME">
+			<Text>铁血政策</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_BISMARCK_ABILITY_DESCRIPTION">
+			<Text>城市+1 [ICON_Production] 生产力，+1 [ICON_Gold] 金币（修正值）。</Text>
+		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_AGENDA_BISMARCK_NAME">
+			<Text>现实政治</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_AGENDA_BISMARCK_DESCRIPTION">
+			<Text>尊重拥有强大 [ICON_Production] 生产力和 [ICON_Gold] 金币产出的文明。不喜欢经济薄弱的文明。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

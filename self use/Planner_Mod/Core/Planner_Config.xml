@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PLANNER</CivilizationType>
+			<LeaderType>LEADER_THE_PLANNER</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_PLANNER_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_INCA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_THE_PLANNER_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_PACHACUTI</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PLANNER_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PLANNER_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_INCA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_THE_PLANNER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_THE_PLANNER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_PACHACUTI</LeaderAbilityIcon>
+			<Portrait>LEADER_PACHACUTI_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_PACHACUTI_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+</GameData>

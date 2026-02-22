@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f6d93a1b-b707-4e6b-9985-0fd362ce67df" version="1">
+  <Properties>
+    <Name>新结社：奥利特尔之遗/Ollin Teyolia</Name>
+    <Description>Added a new SecretSociety to the game</Description>
+    <Created>1755236743</Created>
+    <Teaser>Added a new SecretSociety to the game</Teaser>
+    <Authors>xeloo</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateArt id="art">
+      <File priority="88888888">Ollin_Teyolia.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="data">
+      <File priority="88888888">data.xml</File>
+      <File priority="88888888">building.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="icon">
+      <File priority="88888888">icon.xml</File>
+    </UpdateIcons>
+    <UpdateText id="text">
+      <File priority="88888888">datatext.xml</File>
+    </UpdateText>
+    <UpdateArt id="art">
+      <File priority="88888888">Ollin_Teyolia.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>building.xml</File>
+    <File>data.xml</File>
+    <File>datatext.xml</File>
+    <File>icon.xml</File>
+    <File>Ollin_Teyolia.dep</File>
+  </Files>
+</Mod>

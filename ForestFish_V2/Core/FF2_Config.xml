@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_INCA</CivilizationType>
+			<LeaderType>LEADER_FOREST_FISH</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_INCA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_INCA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_FOREST_FISH_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_PACHACUTI</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_INCA_MIT_A_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_INCA_MIT_A_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_INCA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_FOREST_FISH_ABILITY_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_FOREST_FISH_ABILITY_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_PACHACUTI</LeaderAbilityIcon>
+			<Portrait>LEADER_PACHACUTI_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_PACHACUTI_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+</GameData>

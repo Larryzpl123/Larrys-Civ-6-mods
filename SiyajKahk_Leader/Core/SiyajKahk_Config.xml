@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_MAYA</CivilizationType>
+			<LeaderType>LEADER_SIYAJ_KAHK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_MAYA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_MAYA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_SIYAJ_KAHK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_LADY_SIX_SKY</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MAYAB_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MAYAB_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_MAYA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_SIYAJ_KAHK_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_SIYAJ_KAHK_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_LADY_SIX_SKY</LeaderAbilityIcon>
+			<Portrait>LEADER_LADY_SIX_SKY_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_LADY_SIX_SKY_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+</GameData>

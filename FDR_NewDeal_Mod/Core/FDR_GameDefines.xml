@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ==================== Types ==================== -->
+	<Types>
+		<Row Type="LEADER_FDR" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_FDR_NEW_DEAL" Kind="KIND_TRAIT" />
+	</Types>
+
+	<!-- ==================== Leader ==================== -->
+	<Leaders>
+		<Row LeaderType="LEADER_FDR" Name="LOC_LEADER_FDR_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4" />
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FDR" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_FDR_QUOTE" />
+	</LeaderQuotes>
+
+	<!-- ==================== Traits ==================== -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" Name="LOC_TRAIT_LEADER_FDR_NAME" Description="LOC_TRAIT_LEADER_FDR_DESCRIPTION" />
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FDR" TraitType="TRAIT_LEADER_FDR_NEW_DEAL" />
+	</LeaderTraits>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_AMERICA" LeaderType="LEADER_FDR" CapitalName="LOC_CITY_NAME_WASHINGTON" />
+	</CivilizationLeaders>
+
+	<!-- ==================== Modifiers ==================== -->
+	<Modifiers>
+		<!-- 1) Commercial Hub district: +3 Production -->
+		<Row ModifierId="FDR_CH_PROD" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="DISTRICT_IS_COMMERCIAL_HUB" />
+		<!-- 2) Commercial Hub district: -3 Gold -->
+		<Row ModifierId="FDR_CH_GOLD" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="DISTRICT_IS_COMMERCIAL_HUB" />
+		<!-- 3) Farm: -1 Food -->
+		<Row ModifierId="FDR_FARM_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_FDR_PLOT_HAS_FARM" />
+		<!-- 4) Farm: +3 Gold -->
+		<Row ModifierId="FDR_FARM_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_FDR_PLOT_HAS_FARM" />
+		<!-- 5) Per population: +0.5 Production -->
+		<Row ModifierId="FDR_POP_PROD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION" />
+	</Modifiers>
+
+	<!-- ==================== ModifierArguments ==================== -->
+	<ModifierArguments>
+		<!-- Commercial Hub +3 Production -->
+		<Row ModifierId="FDR_CH_PROD" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="FDR_CH_PROD" Name="Amount" Value="3" />
+		<!-- Commercial Hub -3 Gold -->
+		<Row ModifierId="FDR_CH_GOLD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="FDR_CH_GOLD" Name="Amount" Value="-3" />
+		<!-- Farm -1 Food -->
+		<Row ModifierId="FDR_FARM_FOOD" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="FDR_FARM_FOOD" Name="Amount" Value="-1" />
+		<!-- Farm +3 Gold -->
+		<Row ModifierId="FDR_FARM_GOLD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="FDR_FARM_GOLD" Name="Amount" Value="3" />
+		<!-- Per population +0.5 Production -->
+		<Row ModifierId="FDR_POP_PROD" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="FDR_POP_PROD" Name="Amount" Value="0.5" />
+	</ModifierArguments>
+
+	<!-- ==================== TraitModifiers ==================== -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_CH_PROD" />
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_CH_GOLD" />
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_FARM_FOOD" />
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_FARM_GOLD" />
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_POP_PROD" />
+	</TraitModifiers>
+
+	<!-- ==================== Requirements: Farm ==================== -->
+	<RequirementSets>
+		<Row RequirementSetId="RS_FDR_PLOT_HAS_FARM" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="RS_FDR_PLOT_HAS_FARM" RequirementId="RQ_FDR_PLOT_HAS_FARM" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="RQ_FDR_PLOT_HAS_FARM" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="RQ_FDR_PLOT_HAS_FARM" Name="ImprovementType" Value="IMPROVEMENT_FARM" />
+	</RequirementArguments>
+</GameData>

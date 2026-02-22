@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_OLLIN_POK_TA_POK" Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
+		<Row Name="ICON_BUILDING_PITZ_NAH" Atlas="ICON_ATLAS_BUILDINGS" Index="31"/>
+		<Row Name="SECRETSOCIETY_OLLIN_TEYOLIA" Atlas="ICON_ATLAS_ETHIOPIA_FONT_ICON_OWLS_BASELINE_4" Index="0"/>
+	</IconDefinitions>
+</GameData>

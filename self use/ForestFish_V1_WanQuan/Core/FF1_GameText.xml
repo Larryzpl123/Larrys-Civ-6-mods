@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_LEADER_FORESTFISH_NAME">
+			<Text>ForestFish</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_FORESTFISH_ABILITY_NAME">
+			<Text>Grain, Hammer, Gold</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_FORESTFISH_ABILITY_DESCRIPTION">
+			<Text>All cities receive +2 [ICON_Production] Production, +2 [ICON_Food] Food, and +4 [ICON_Gold] Gold.</Text>
+		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_FORESTFISH_NAME">
+			<Text>森林鱼</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FORESTFISH_ABILITY_NAME">
+			<Text>粮锤金</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FORESTFISH_ABILITY_DESCRIPTION">
+			<Text>所有城市获得+2 [ICON_Production] 生产力、+2 [ICON_Food] 食物和+4 [ICON_Gold] 金币。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

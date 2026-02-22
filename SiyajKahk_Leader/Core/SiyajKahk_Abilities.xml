@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="ABILITY_SIYAJ_RANGED_MOVEMENT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SIYAJ_RANGED_STRENGTH" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_SIYAJ_RANGED_MOVEMENT" Name="LOC_ABILITY_SIYAJ_RANGED_MOVEMENT_NAME" Description="LOC_ABILITY_SIYAJ_RANGED_MOVEMENT_DESC" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_SIYAJ_RANGED_STRENGTH" Name="LOC_ABILITY_SIYAJ_RANGED_STRENGTH_NAME" Description="LOC_ABILITY_SIYAJ_RANGED_STRENGTH_DESC" Inactive="true"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="ABILITY_SIYAJ_RANGED_MOVEMENT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_SIYAJ_RANGED_STRENGTH" Tag="CLASS_RANGED"/>
+	</TypeTags>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SIYAJ_RANGED_MOVEMENT</UnitAbilityType>
+			<ModifierId>ABILITY_SIYAJ_RANGED_MOVEMENT_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SIYAJ_RANGED_STRENGTH</UnitAbilityType>
+			<ModifierId>ABILITY_SIYAJ_RANGED_STRENGTH_MODIFIER</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+</GameData>

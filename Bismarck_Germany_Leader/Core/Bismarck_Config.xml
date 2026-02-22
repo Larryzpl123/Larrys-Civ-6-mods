@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<LeaderType>LEADER_BISMARCK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_GERMANY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_GERMANY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_BISMARCK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_BARBAROSSA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FREE_IMPERIAL_CITIES_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FREE_IMPERIAL_CITIES_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_GERMANY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_BISMARCK_ABILITY_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_BISMARCK_ABILITY_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_BARBAROSSA</LeaderAbilityIcon>
+			<Portrait>LEADER_BARBAROSSA_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_BARBAROSSA_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+</GameData>

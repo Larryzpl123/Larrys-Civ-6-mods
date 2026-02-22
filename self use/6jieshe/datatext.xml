@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_NAME" Language="zh_Hans_CN">
+			<Text>奥利特尔之遗</Text>
+		</Row>
+		<Row Tag="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>他们传承了中美洲的娱乐习俗，希望将其发扬光大，取得文化胜利。</Text>
+		</Row>
+		<Row Tag="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_DISCOVERY" Language="zh_Hans_CN">
+			<Text>"橡胶球撞击石壁的轰鸣，是太阳对抗黑暗的战鼓，加入奥利特尔，让灵魂圣赛中淬炼重生，胜者执掌命运，败者亦将归于星辰。"阅读着石板上的奇怪文字，你意识到这是一个秘密组织。随着奇怪的想法不断在内心涌现，你开始思考是否决定加入他们。</Text>
+		</Row>
+		<Row Tag="LOC_SECRETSOCIETY_OLLIN_TEYOLIA_MEMBERSHIP" Language="zh_Hans_CN">
+			<Text>你的内心听见了神明的召唤，你的子民开始接触一种新文化，你的城市逐渐吸引了越来越多的外地人，你已成为石板所说组织的一员。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1_NAME" Language="zh_Hans_CN">
+			<Text>初遇</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有"法典"市政后解锁娱乐中心，相邻娱乐中心的单元格+1 [ICON_Gold] 金币。允许建造竞技场的强力替代品"奥林波克塔"。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2_NAME" Language="zh_Hans_CN">
+			<Text>热衷</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪解锁。相邻娱乐中心的改良设施+1 [ICON_Production] 生产力。奥林波克塔+100%基础产出，拥有奥林波克塔的城市建造大学时+50% [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3_NAME" Language="zh_Hans_CN">
+			<Text>深入</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文艺复兴时代解锁。允许以较低的 [ICON_Gold] 金币购买动物园的强力替代品"皮茨纳赫"。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4_NAME" Language="zh_Hans_CN">
+			<Text>发扬</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_OLLIN_TEYOLIA_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子能时代解锁。所有城市获得1组摇滚乐队。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OLLIN_POK_TA_POK_NAME" Language="zh_Hans_CN">
+			<Text>奥林波克塔</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_OLLIN_POK_TA_POK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Culture] 文化值，+1 [ICON_Gold] 金币，娱乐设施+2 [ICON_AMENITIES] 宜居度。若城市拥有至少4点 [ICON_Citizen] 人口且没有市场和灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PITZ_NAH_NAME" Language="zh_Hans_CN">
+			<Text>皮茨纳赫</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BUILDING_PITZ_NAH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值，+2 [ICON_Production] 生产力，娱乐设施+1 [ICON_AMENITIES] 宜居度。该建筑无法辐射，城市每拥有4点人口便+1 [ICON_Production] 生产力。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

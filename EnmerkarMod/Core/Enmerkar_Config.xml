@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SUMERIA</CivilizationType>
+			<LeaderType>LEADER_ENMERKAR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SUMERIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SUMERIA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ENMERKAR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_GILGAMESH</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_SUMERIA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_SUMERIA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SUMERIA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ENMERKAR_CUNEIFORM_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ENMERKAR_CUNEIFORM_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_GILGAMESH</LeaderAbilityIcon>
+			<Portrait>LEADER_GILGAMESH_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_GILGAMESH_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row Domain="Players:Expansion2_Players" 
+			 CivilizationType="CIVILIZATION_SUMERIA" 
+			 LeaderType="LEADER_ENMERKAR" 
+			 Type="UNIT_SUMERIAN_WAR_CART" 
+			 Icon="ICON_UNIT_SUMERIAN_WAR_CART" 
+			 Name="LOC_UNIT_SUMERIAN_WAR_CART_NAME"
+			 Description="LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION" 
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players" 
+			 CivilizationType="CIVILIZATION_SUMERIA"
+			 LeaderType="LEADER_ENMERKAR"
+			 Type="IMPROVEMENT_ZIGGURAT"
+			 Icon="ICON_IMPROVEMENT_ZIGGURAT"
+			 Name="LOC_IMPROVEMENT_ZIGGURAT_NAME"
+			 Description="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" 
+			 SortIndex="20" />
+	</PlayerItems>
+</GameData>

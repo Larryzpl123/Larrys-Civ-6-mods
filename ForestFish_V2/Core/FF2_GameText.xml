@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_LEADER_FOREST_FISH_NAME">
+			<Text>Forest Fish</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_FOREST_FISH_ABILITY_NAME">
+			<Text>Grain, Hammer, Gold</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_FOREST_FISH_ABILITY_DESCRIPTION">
+			<Text>Commercial Hubs provide +1 [ICON_Production] Production. Industrial Zones provide +2 [ICON_Food] Food. All cities receive +3 [ICON_Gold] Gold.</Text>
+		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_FOREST_FISH_NAME">
+			<Text>森林·鱼</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FOREST_FISH_ABILITY_NAME">
+			<Text>粮锤金</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_FOREST_FISH_ABILITY_DESCRIPTION">
+			<Text>商业中心提供+1 [ICON_Production] 生产力。工业区提供+2 [ICON_Food] 食物。市中心提供+3 [ICON_Gold] 金币。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

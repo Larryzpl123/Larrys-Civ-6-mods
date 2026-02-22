@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_PLANNER" Kind="KIND_CIVILIZATION" />
+		<Row Type="LEADER_THE_PLANNER" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" Kind="KIND_TRAIT" />
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_PLANNER" Name="LOC_CIVILIZATION_PLANNER_NAME" Description="LOC_CIVILIZATION_PLANNER_DESCRIPTION" Adjective="LOC_CIVILIZATION_PLANNER_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" />
+	</Civilizations>
+	<Leaders>
+		<Row LeaderType="LEADER_THE_PLANNER" Name="LOC_LEADER_THE_PLANNER_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4" />
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_THE_PLANNER" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_THE_PLANNER_QUOTE" />
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" Name="LOC_TRAIT_LEADER_THE_PLANNER_NAME" Description="LOC_TRAIT_LEADER_THE_PLANNER_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" Name="LOC_TRAIT_CIVILIZATION_PLANNER_NAME" Description="LOC_TRAIT_CIVILIZATION_PLANNER_DESCRIPTION" />
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_THE_PLANNER" TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" />
+	</LeaderTraits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_PLANNER" TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" />
+	</CivilizationTraits>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_PLANNER" LeaderType="LEADER_THE_PLANNER" CapitalName="LOC_CITY_NAME_PLANNER_1" />
+	</CivilizationLeaders>
+	<Modifiers>
+		<Row ModifierId="PL_CAP_INIT_FOOD" ModifierType="MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE" />
+		<Row ModifierId="PL_CAP_LUA_FOOD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IS_CAPITAL" />
+		<Row ModifierId="PL_CAP_INIT_PROD" ModifierType="MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE" />
+		<Row ModifierId="PL_CAP_LUA_PROD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IS_CAPITAL" />
+		<Row ModifierId="PL_CAP_INIT_GOLD" ModifierType="MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE" />
+		<Row ModifierId="PL_CAP_LUA_GOLD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IS_CAPITAL" />
+		<Row ModifierId="PL_CAP_INIT_SCI" ModifierType="MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE" />
+		<Row ModifierId="PL_CAP_LUA_SCI" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IS_CAPITAL" />
+		<Row ModifierId="PL_CAP_INIT_CUL" ModifierType="MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE" />
+		<Row ModifierId="PL_CAP_LUA_CUL" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IS_CAPITAL" />
+		<Row ModifierId="PL_CAP_INIT_FAITH" ModifierType="MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE" />
+		<Row ModifierId="PL_CAP_LUA_FAITH" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IS_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_FOOD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_GOLD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_SCIENCE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_FAITH" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_NONCAP_PEN_LOYALTY" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY" SubjectRequirementSetId="RS_PL_NOT_CAPITAL" />
+		<Row ModifierId="PL_D_HS_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_HS" />
+		<Row ModifierId="PL_D_HS_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_HS" />
+		<Row ModifierId="PL_D_HS_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_HS" />
+		<Row ModifierId="PL_D_HS_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_HS" />
+		<Row ModifierId="PL_D_CA_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CA" />
+		<Row ModifierId="PL_D_CA_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CA" />
+		<Row ModifierId="PL_D_CA_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CA" />
+		<Row ModifierId="PL_D_CA_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_CA" />
+		<Row ModifierId="PL_D_TH_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_TH" />
+		<Row ModifierId="PL_D_TH_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_TH" />
+		<Row ModifierId="PL_D_TH_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_TH" />
+		<Row ModifierId="PL_D_TH_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_TH" />
+		<Row ModifierId="PL_D_CH_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CH" />
+		<Row ModifierId="PL_D_CH_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CH" />
+		<Row ModifierId="PL_D_CH_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CH" />
+		<Row ModifierId="PL_D_CH_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_CH" />
+		<Row ModifierId="PL_D_HB_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_HB" />
+		<Row ModifierId="PL_D_HB_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_HB" />
+		<Row ModifierId="PL_D_HB_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_HB" />
+		<Row ModifierId="PL_D_HB_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_HB" />
+		<Row ModifierId="PL_D_IZ_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IZ" />
+		<Row ModifierId="PL_D_IZ_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IZ" />
+		<Row ModifierId="PL_D_IZ_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_IZ" />
+		<Row ModifierId="PL_D_IZ_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_IZ" />
+		<Row ModifierId="PL_D_EC_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_EC" />
+		<Row ModifierId="PL_D_EC_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_EC" />
+		<Row ModifierId="PL_D_EC_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_EC" />
+		<Row ModifierId="PL_D_EC_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_EC" />
+		<Row ModifierId="PL_D_WP_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_WP" />
+		<Row ModifierId="PL_D_WP_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_WP" />
+		<Row ModifierId="PL_D_WP_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_WP" />
+		<Row ModifierId="PL_D_WP_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_WP" />
+		<Row ModifierId="PL_D_EN_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_EN" />
+		<Row ModifierId="PL_D_EN_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_EN" />
+		<Row ModifierId="PL_D_EN_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_EN" />
+		<Row ModifierId="PL_D_EN_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_EN" />
+		<Row ModifierId="PL_D_AE_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_AE" />
+		<Row ModifierId="PL_D_AE_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_AE" />
+		<Row ModifierId="PL_D_AE_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_AE" />
+		<Row ModifierId="PL_D_AE_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_AE" />
+		<Row ModifierId="PL_D_SP_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_SP" />
+		<Row ModifierId="PL_D_SP_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_SP" />
+		<Row ModifierId="PL_D_SP_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_SP" />
+		<Row ModifierId="PL_D_SP_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_SP" />
+		<Row ModifierId="PL_D_NB_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NB" />
+		<Row ModifierId="PL_D_NB_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NB" />
+		<Row ModifierId="PL_D_NB_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_NB" />
+		<Row ModifierId="PL_D_NB_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_NB" />
+		<Row ModifierId="PL_D_GP_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_GP" />
+		<Row ModifierId="PL_D_GP_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_GP" />
+		<Row ModifierId="PL_D_GP_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_GP" />
+		<Row ModifierId="PL_D_GP_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_GP" />
+		<Row ModifierId="PL_D_DQ_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_DQ" />
+		<Row ModifierId="PL_D_DQ_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_DQ" />
+		<Row ModifierId="PL_D_DQ_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_DQ" />
+		<Row ModifierId="PL_D_DQ_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_DQ" />
+		<Row ModifierId="PL_D_DM_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_DM" />
+		<Row ModifierId="PL_D_DM_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_DM" />
+		<Row ModifierId="PL_D_DM_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_DM" />
+		<Row ModifierId="PL_D_DM_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_DM" />
+		<Row ModifierId="PL_D_CN_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CN" />
+		<Row ModifierId="PL_D_CN_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CN" />
+		<Row ModifierId="PL_D_CN_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_CN" />
+		<Row ModifierId="PL_D_CN_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_CN" />
+		<Row ModifierId="PL_D_AQ_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_AQ" />
+		<Row ModifierId="PL_D_AQ_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_AQ" />
+		<Row ModifierId="PL_D_AQ_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_AQ" />
+		<Row ModifierId="PL_D_AQ_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_AQ" />
+		<Row ModifierId="PL_D_PR_F" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_PR" />
+		<Row ModifierId="PL_D_PR_P" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_PR" />
+		<Row ModifierId="PL_D_PR_G" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="RS_PL_PR" />
+		<Row ModifierId="PL_D_PR_H" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING" SubjectRequirementSetId="RS_PL_PR" />
+		<!-- Unit granting: Hippodrome pattern for special districts -->
+		<Row ModifierId="PL_GRANT_RANGED_GOV" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS" />
+		<Row ModifierId="PL_GRANT_RANGED_DQ" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS" />
+		<Row ModifierId="PL_GRANT_RANGED_SP" ModifierType="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="PL_CAP_INIT_FOOD" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_CAP_INIT_FOOD" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_LUA_FOOD" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_CAP_LUA_FOOD" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_INIT_PROD" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_CAP_INIT_PROD" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_LUA_PROD" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_CAP_LUA_PROD" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_INIT_GOLD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_CAP_INIT_GOLD" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_LUA_GOLD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_CAP_LUA_GOLD" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_INIT_SCI" Name="YieldType" Value="YIELD_SCIENCE" />
+		<Row ModifierId="PL_CAP_INIT_SCI" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_LUA_SCI" Name="YieldType" Value="YIELD_SCIENCE" />
+		<Row ModifierId="PL_CAP_LUA_SCI" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_INIT_CUL" Name="YieldType" Value="YIELD_CULTURE" />
+		<Row ModifierId="PL_CAP_INIT_CUL" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_LUA_CUL" Name="YieldType" Value="YIELD_CULTURE" />
+		<Row ModifierId="PL_CAP_LUA_CUL" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_INIT_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="PL_CAP_INIT_FAITH" Name="Amount" Value="2" />
+		<Row ModifierId="PL_CAP_LUA_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="PL_CAP_LUA_FAITH" Name="Amount" Value="2" />
+		<Row ModifierId="PL_NONCAP_PEN_FOOD" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_NONCAP_PEN_FOOD" Name="Amount" Value="-9999" />
+		<Row ModifierId="PL_NONCAP_PEN_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_NONCAP_PEN_PRODUCTION" Name="Amount" Value="-9999" />
+		<Row ModifierId="PL_NONCAP_PEN_GOLD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_NONCAP_PEN_GOLD" Name="Amount" Value="-9999" />
+		<Row ModifierId="PL_NONCAP_PEN_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE" />
+		<Row ModifierId="PL_NONCAP_PEN_SCIENCE" Name="Amount" Value="-9999" />
+		<Row ModifierId="PL_NONCAP_PEN_CULTURE" Name="YieldType" Value="YIELD_CULTURE" />
+		<Row ModifierId="PL_NONCAP_PEN_CULTURE" Name="Amount" Value="-9999" />
+		<Row ModifierId="PL_NONCAP_PEN_FAITH" Name="YieldType" Value="YIELD_FAITH" />
+		<Row ModifierId="PL_NONCAP_PEN_FAITH" Name="Amount" Value="-9999" />
+		<Row ModifierId="PL_NONCAP_PEN_LOYALTY" Name="Amount" Value="-100" />
+		<Row ModifierId="PL_D_HS_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_HS_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HS_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_HS_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HS_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_HS_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HS_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CA_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_CA_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CA_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_CA_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CA_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_CA_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CA_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_TH_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_TH_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_TH_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_TH_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_TH_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_TH_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_TH_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CH_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_CH_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CH_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_CH_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CH_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_CH_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CH_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HB_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_HB_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HB_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_HB_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HB_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_HB_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_HB_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_IZ_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_IZ_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_IZ_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_IZ_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_IZ_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_IZ_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_IZ_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EC_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_EC_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EC_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_EC_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EC_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_EC_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EC_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_WP_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_WP_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_WP_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_WP_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_WP_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_WP_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_WP_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EN_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_EN_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EN_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_EN_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EN_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_EN_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_EN_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AE_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_AE_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AE_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_AE_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AE_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_AE_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AE_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_SP_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_SP_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_SP_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_SP_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_SP_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_SP_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_SP_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_NB_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_NB_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_NB_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_NB_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_NB_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_NB_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_NB_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_GP_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_GP_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_GP_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_GP_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_GP_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_GP_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_GP_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DQ_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_DQ_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DQ_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_DQ_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DQ_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_DQ_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DQ_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DM_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_DM_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DM_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_DM_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DM_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_DM_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_DM_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CN_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_CN_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CN_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_CN_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CN_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_CN_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_CN_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AQ_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_AQ_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AQ_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_AQ_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AQ_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_AQ_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_AQ_H" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_PR_F" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="PL_D_PR_F" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_PR_P" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="PL_D_PR_P" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_PR_G" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="PL_D_PR_G" Name="Amount" Value="2" />
+		<Row ModifierId="PL_D_PR_H" Name="Amount" Value="2" />
+		<!-- Unit granting arguments (Hippodrome pattern) -->
+		<Row ModifierId="PL_GRANT_RANGED_GOV" Name="DistrictType" Value="DISTRICT_GOVERNMENT" />
+		<Row ModifierId="PL_GRANT_RANGED_GOV" Name="UnitPromotionClass" Value="PROMOTION_CLASS_RANGED" />
+		<Row ModifierId="PL_GRANT_RANGED_DQ" Name="DistrictType" Value="DISTRICT_DIPLOMATIC_QUARTER" />
+		<Row ModifierId="PL_GRANT_RANGED_DQ" Name="UnitPromotionClass" Value="PROMOTION_CLASS_RANGED" />
+		<Row ModifierId="PL_GRANT_RANGED_SP" Name="DistrictType" Value="DISTRICT_SPACEPORT" />
+		<Row ModifierId="PL_GRANT_RANGED_SP" Name="UnitPromotionClass" Value="PROMOTION_CLASS_RANGED" />
+	</ModifierArguments>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_CAP_INIT_FOOD" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_CAP_INIT_PROD" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_CAP_INIT_GOLD" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_CAP_INIT_SCI" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_CAP_INIT_CUL" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_CAP_INIT_FAITH" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_NONCAP_PEN_FOOD" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_NONCAP_PEN_PRODUCTION" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_NONCAP_PEN_GOLD" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_NONCAP_PEN_SCIENCE" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_NONCAP_PEN_CULTURE" />
+		<Row TraitType="TRAIT_LEADER_THE_PLANNER_GRAND_PLAN" ModifierId="PL_NONCAP_PEN_FAITH" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_NONCAP_PEN_LOYALTY" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HS_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HS_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HS_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HS_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CA_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CA_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CA_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CA_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_TH_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_TH_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_TH_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_TH_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CH_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CH_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CH_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CH_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HB_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HB_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HB_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_HB_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_IZ_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_IZ_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_IZ_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_IZ_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EC_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EC_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EC_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EC_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_WP_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_WP_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_WP_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_WP_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EN_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EN_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EN_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_EN_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AE_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AE_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AE_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AE_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_SP_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_SP_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_SP_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_SP_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_NB_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_NB_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_NB_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_NB_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_GP_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_GP_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_GP_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_GP_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DQ_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DQ_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DQ_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DQ_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DM_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DM_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DM_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_DM_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CN_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CN_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CN_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_CN_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AQ_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AQ_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AQ_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_AQ_H" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_PR_F" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_PR_P" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_PR_G" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_D_PR_H" />
+		<!-- Unit granting on special district completion -->
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_GRANT_RANGED_GOV" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_GRANT_RANGED_DQ" />
+		<Row TraitType="TRAIT_CIVILIZATION_PLANNER_BLUEPRINT" ModifierId="PL_GRANT_RANGED_SP" />
+	</TraitModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="RS_PL_NOT_CAPITAL" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_IS_CAPITAL" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_HS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_CA" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_TH" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_CH" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_HB" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_IZ" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_EC" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_WP" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_EN" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_AE" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_SP" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_NB" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_GP" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_DQ" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_DM" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_CN" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_AQ" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_PL_PR" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="RS_PL_NOT_CAPITAL" RequirementId="RQ_PL_NOT_CAPITAL" />
+		<Row RequirementSetId="RS_PL_IS_CAPITAL" RequirementId="RQ_PL_IS_CAPITAL" />
+		<Row RequirementSetId="RS_PL_HS" RequirementId="RQ_PL_HS" />
+		<Row RequirementSetId="RS_PL_CA" RequirementId="RQ_PL_CA" />
+		<Row RequirementSetId="RS_PL_TH" RequirementId="RQ_PL_TH" />
+		<Row RequirementSetId="RS_PL_CH" RequirementId="RQ_PL_CH" />
+		<Row RequirementSetId="RS_PL_HB" RequirementId="RQ_PL_HB" />
+		<Row RequirementSetId="RS_PL_IZ" RequirementId="RQ_PL_IZ" />
+		<Row RequirementSetId="RS_PL_EC" RequirementId="RQ_PL_EC" />
+		<Row RequirementSetId="RS_PL_WP" RequirementId="RQ_PL_WP" />
+		<Row RequirementSetId="RS_PL_EN" RequirementId="RQ_PL_EN" />
+		<Row RequirementSetId="RS_PL_AE" RequirementId="RQ_PL_AE" />
+		<Row RequirementSetId="RS_PL_SP" RequirementId="RQ_PL_SP" />
+		<Row RequirementSetId="RS_PL_NB" RequirementId="RQ_PL_NB" />
+		<Row RequirementSetId="RS_PL_GP" RequirementId="RQ_PL_GP" />
+		<Row RequirementSetId="RS_PL_DQ" RequirementId="RQ_PL_DQ" />
+		<Row RequirementSetId="RS_PL_DM" RequirementId="RQ_PL_DM" />
+		<Row RequirementSetId="RS_PL_CN" RequirementId="RQ_PL_CN" />
+		<Row RequirementSetId="RS_PL_AQ" RequirementId="RQ_PL_AQ" />
+		<Row RequirementSetId="RS_PL_PR" RequirementId="RQ_PL_PR" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="RQ_PL_NOT_CAPITAL" RequirementType="REQUIREMENT_CITY_IS_CAPITAL" Inverse="1" />
+		<Row RequirementId="RQ_PL_IS_CAPITAL" RequirementType="REQUIREMENT_CITY_IS_CAPITAL" />
+		<Row RequirementId="RQ_PL_HS" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_CA" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_TH" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_CH" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_HB" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_IZ" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_EC" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_WP" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_EN" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_AE" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_SP" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_NB" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_GP" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_DQ" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_DM" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_CN" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_AQ" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+		<Row RequirementId="RQ_PL_PR" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="RQ_PL_HS" Name="DistrictType" Value="DISTRICT_HOLY_SITE" />
+		<Row RequirementId="RQ_PL_CA" Name="DistrictType" Value="DISTRICT_CAMPUS" />
+		<Row RequirementId="RQ_PL_TH" Name="DistrictType" Value="DISTRICT_THEATER" />
+		<Row RequirementId="RQ_PL_CH" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB" />
+		<Row RequirementId="RQ_PL_HB" Name="DistrictType" Value="DISTRICT_HARBOR" />
+		<Row RequirementId="RQ_PL_IZ" Name="DistrictType" Value="DISTRICT_INDUSTRIAL_ZONE" />
+		<Row RequirementId="RQ_PL_EC" Name="DistrictType" Value="DISTRICT_ENTERTAINMENT_COMPLEX" />
+		<Row RequirementId="RQ_PL_WP" Name="DistrictType" Value="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" />
+		<Row RequirementId="RQ_PL_EN" Name="DistrictType" Value="DISTRICT_ENCAMPMENT" />
+		<Row RequirementId="RQ_PL_AE" Name="DistrictType" Value="DISTRICT_AERODROME" />
+		<Row RequirementId="RQ_PL_SP" Name="DistrictType" Value="DISTRICT_SPACEPORT" />
+		<Row RequirementId="RQ_PL_NB" Name="DistrictType" Value="DISTRICT_NEIGHBORHOOD" />
+		<Row RequirementId="RQ_PL_GP" Name="DistrictType" Value="DISTRICT_GOVERNMENT" />
+		<Row RequirementId="RQ_PL_DQ" Name="DistrictType" Value="DISTRICT_DIPLOMATIC_QUARTER" />
+		<Row RequirementId="RQ_PL_DM" Name="DistrictType" Value="DISTRICT_DAM" />
+		<Row RequirementId="RQ_PL_CN" Name="DistrictType" Value="DISTRICT_CANAL" />
+		<Row RequirementId="RQ_PL_AQ" Name="DistrictType" Value="DISTRICT_AQUEDUCT" />
+		<Row RequirementId="RQ_PL_PR" Name="DistrictType" Value="DISTRICT_PRESERVE" />
+	</RequirementArguments>
+</GameData>

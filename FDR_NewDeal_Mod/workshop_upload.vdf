@@ -1,0 +1,16 @@
+"workshopitem"
+{
+	"appid"		"289070"
+	"publishedfileid"		"3671072882"
+	"contentfolder"		"/Users/larryzhong/Desktop/FDR_NewDeal_Mod"
+	"previewfile"		""
+	"visibility"		"0"
+	"title"		"New Leader of America, FDR"
+	"description"		"Commercial Hubs and their buildings provide +3 Production and -3 Gold to the city. Farms provide -1 [ICON_Food] Food and +3 [ICON_Gold] Gold. +0.5 Production per ciziten in all cities."
+	"changenote"		"Initial Release"
+	"tags"
+	{
+		"0"		"Mod"
+		"1"		"Leaders"
+	}
+}

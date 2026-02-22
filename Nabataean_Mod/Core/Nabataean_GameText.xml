@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_CIVILIZATION_NABATAEAN_NAME">
+			<Text>Nabataean</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_NABATAEAN_NAME">
+			<Text>纳巴泰</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVILIZATION_NABATAEAN_DESCRIPTION">
+			<Text>Nabataean Empire</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_NABATAEAN_DESCRIPTION">
+			<Text>纳巴泰帝国</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVILIZATION_NABATAEAN_ADJECTIVE">
+			<Text>Nabataean</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_NABATAEAN_ADJECTIVE">
+			<Text>纳巴泰的</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_LEADER_NABATAEAN_ARETAS_NAME">
+			<Text>Aretas IV</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_NABATAEAN_ARETAS_NAME">
+			<Text>哈里萨四世</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_NABATAEAN_ARETAS_NAME">
+			<Text>Petra's Domain</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_NABATAEAN_ARETAS_NAME">
+			<Text>佩特拉之权</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_NABATAEAN_ARETAS_DESCRIPTION">
+			<Text>Receive a free Builder when founding a city within 6 tiles of the Capital (NOT including the Capital itself). Cities founded beyond 6 tiles from the Capital suffer -50% to all yields.</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_NABATAEAN_ARETAS_DESCRIPTION">
+			<Text>在首都6单元格范围内（不包括首都）建立城市时，获得一个免费建造者。所有6单元格外的非首都城市的所有产出-50%。</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_NABATAEAN_FRUIT_TREE_NAME">
+			<Text>Fruit Tree Agriculture</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_NABATAEAN_FRUIT_TREE_NAME">
+			<Text>果树农业</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_NABATAEAN_FRUIT_TREE_DESCRIPTION">
+			<Text>Desert tiles without Floodplains provide +2 Food, +2 Gold, and +1 Production.</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_NABATAEAN_FRUIT_TREE_DESCRIPTION">
+			<Text>沙漠地块（非泛滥平原）提供+2食物、+2金币和+1生产力。</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NABATAEAN_ARETAS_QUOTE">
+			<Text>The desert will provide for those who know its secrets.</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NABATAEAN_ARETAS_QUOTE">
+			<Text>沙漠将为知晓其秘密的人提供一切。</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVINFO_NABATAEAN_LOCATION">
+			<Text>Middle East</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVINFO_NABATAEAN_SIZE">
+			<Text>250,000 km2</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVINFO_NABATAEAN_POPULATION">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVINFO_NABATAEAN_CAPITAL">
+			<Text>Petra</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_1">
+			<Text>Petra</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_1">
+			<Text>佩特拉</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_2">
+			<Text>Hegra</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_2">
+			<Text>黑格拉</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_3">
+			<Text>Bosra</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_3">
+			<Text>布斯拉</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_4">
+			<Text>Avdat</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_4">
+			<Text>阿夫达特</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_5">
+			<Text>Shivta</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_5">
+			<Text>希夫塔</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_6">
+			<Text>Nitzana</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_6">
+			<Text>尼扎纳</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_7">
+			<Text>Elusa</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_7">
+			<Text>埃卢萨</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_8">
+			<Text>Mampsis</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_8">
+			<Text>曼普西斯</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_9">
+			<Text>Sobata</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_9">
+			<Text>索巴塔</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_NABATAEAN_10">
+			<Text>Dumata</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NABATAEAN_10">
+			<Text>杜玛塔</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

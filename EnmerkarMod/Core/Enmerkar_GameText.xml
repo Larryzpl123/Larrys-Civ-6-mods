@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_ENMERKAR_NAME" Language="en_US">
+			<Text>Enmerkar</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ENMERKAR_NAME" Language="zh_Hans_CN">
+			<Text>恩美卡</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ENMERKAR_CUNEIFORM_NAME" Language="en_US">
+			<Text>Cuneiform</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ENMERKAR_CUNEIFORM_NAME" Language="zh_Hans_CN">
+			<Text>楔形文字</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ENMERKAR_CUNEIFORM_DESCRIPTION" Language="en_US">
+			<Text>Monuments provide +1 [ICON_Culture] Culture. Ziggurats provide +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ENMERKAR_CUNEIFORM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>纪念碑+1 [ICON_Culture] 文化。金字形神塔+1 [ICON_Culture] 文化</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENMERKAR_QUOTE" Language="en_US">
+			<Text>The word of a king is supreme. Let the clay tablet carry my words across the lands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENMERKAR_QUOTE" Language="zh_Hans_CN">
+			<Text>王的言语至高无上。让泥板将我的话语传遍大地。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ENMERKAR" Language="en_US">
+			<Text>Enmerkar, legendary king of Uruk, your wisdom in creating cuneiform writing shall echo through the ages. Guide your people with the power of recorded knowledge.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ENMERKAR" Language="zh_Hans_CN">
+			<Text>恩美卡，乌鲁克的传奇国王，您创造楔形文字的智慧将流传千古。愿您以记录知识的力量引领您的人民。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

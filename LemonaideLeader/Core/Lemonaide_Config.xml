@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <!-- ============================================ -->
+    <!-- 前端配置 - 让领袖显示在选择界面 -->
+    <!-- ============================================ -->
+    <Players>
+        <Row>
+            <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
+            <LeaderType>LEADER_LEMONAIDE</LeaderType>
+            <CivilizationName>LOC_CIVILIZATION_CANADA_NAME</CivilizationName>
+            <CivilizationIcon>ICON_CIVILIZATION_CANADA</CivilizationIcon>
+            <LeaderName>LOC_LEADER_LEMONAIDE_NAME</LeaderName>
+            <LeaderIcon>ICON_LEADER_LAURIER</LeaderIcon>
+            <CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CANADA_NAME</CivilizationAbilityName>
+            <CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CANADA_DESCRIPTION</CivilizationAbilityDescription>
+            <CivilizationAbilityIcon>ICON_CIVILIZATION_CANADA</CivilizationAbilityIcon>
+            <LeaderAbilityName>LOC_TRAIT_LEADER_LEMONAIDE_NAME</LeaderAbilityName>
+            <LeaderAbilityDescription>LOC_TRAIT_LEADER_LEMONAIDE_DESCRIPTION</LeaderAbilityDescription>
+            <LeaderAbilityIcon>ICON_LEADER_LAURIER</LeaderAbilityIcon>
+            <Portrait>LEADER_LAURIER_NEUTRAL</Portrait>
+            <PortraitBackground>LEADER_LAURIER_BACKGROUND</PortraitBackground>
+            <Domain>Players:Expansion2_Players</Domain>
+        </Row>
+    </Players>
+</GameData>
