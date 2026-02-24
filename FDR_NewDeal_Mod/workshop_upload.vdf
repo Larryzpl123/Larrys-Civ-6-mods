@@ -1,13 +1,13 @@
 "workshopitem"
 {
 	"appid"		"289070"
-	"publishedfileid"		"3671072882"
+	"publishedfileid"		"3671236934"
 	"contentfolder"		"/Users/larryzhong/Desktop/FDR_NewDeal_Mod"
-	"previewfile"		""
+	"previewfile"		"/Users/larryzhong/Desktop/FDR_NewDeal_Mod/franklin-d-roosevelt.png"
 	"visibility"		"0"
 	"title"		"New Leader of America, FDR"
-	"description"		"Commercial Hubs and their buildings provide +3 Production and -3 Gold to the city. Farms provide -1 [ICON_Food] Food and +3 [ICON_Gold] Gold. +0.5 Production per ciziten in all cities."
-	"changenote"		"Initial Release"
+	"description"		"Commercial Hubs and their buildings provide +3 Production and -3 Gold to the city. Farms provide -1 Food and +3 Gold. +0.5 Production per ciziten in all cities."
+	"changenote"		"Enhance ability"
 	"tags"
 	{
 		"0"		"Mod"

@@ -33,9 +33,11 @@
 		<Row ModifierId="FDR_CH_GOLD" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE" SubjectRequirementSetId="DISTRICT_IS_COMMERCIAL_HUB" />
 		<!-- 3) Farm: -1 Food -->
 		<Row ModifierId="FDR_FARM_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_FDR_PLOT_HAS_FARM" />
-		<!-- 4) Farm: +3 Gold -->
+		<!-- 4) Farm: +1 Production -->
+		<Row ModifierId="FDR_FARM_PROD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_FDR_PLOT_HAS_FARM" />
+		<!-- 5) Farm: +3 Gold -->
 		<Row ModifierId="FDR_FARM_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_FDR_PLOT_HAS_FARM" />
-		<!-- 5) Per population: +0.5 Production -->
+		<!-- 6) Per population: +0.5 Production -->
 		<Row ModifierId="FDR_POP_PROD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION" />
 	</Modifiers>
 
@@ -50,6 +52,9 @@
 		<!-- Farm -1 Food -->
 		<Row ModifierId="FDR_FARM_FOOD" Name="YieldType" Value="YIELD_FOOD" />
 		<Row ModifierId="FDR_FARM_FOOD" Name="Amount" Value="-1" />
+		<!-- Farm +1 Production -->
+		<Row ModifierId="FDR_FARM_PROD" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="FDR_FARM_PROD" Name="Amount" Value="1" />
 		<!-- Farm +3 Gold -->
 		<Row ModifierId="FDR_FARM_GOLD" Name="YieldType" Value="YIELD_GOLD" />
 		<Row ModifierId="FDR_FARM_GOLD" Name="Amount" Value="3" />
@@ -63,6 +68,7 @@
 		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_CH_PROD" />
 		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_CH_GOLD" />
 		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_FARM_FOOD" />
+		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_FARM_PROD" />
 		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_FARM_GOLD" />
 		<Row TraitType="TRAIT_LEADER_FDR_NEW_DEAL" ModifierId="FDR_POP_PROD" />
 	</TraitModifiers>
