@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?> 
 <Mod id="f6d93a1b-b707-4e6b-9985-0fd362ce67df" version="1">
   <Properties>
     <Name>新结社：奥利特尔之遗/Ollin Teyolia</Name>
@@ -37,4 +37,5 @@
     <File>icon.xml</File>
     <File>Ollin_Teyolia.dep</File>
   </Files>
+
 </Mod>
