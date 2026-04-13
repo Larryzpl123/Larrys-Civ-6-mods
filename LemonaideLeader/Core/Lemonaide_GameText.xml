@@ -14,7 +14,7 @@
         </Row>
         
         <Row Tag="LOC_TRAIT_LEADER_LEMONAIDE_DESCRIPTION" Language="en_US">
-            <Text>Scouts receive +4 [ICON_Strength] Combat Strength. Tundra tiles provide +2 [ICON_Production] Production. Tundra Hills provide +1 [ICON_Food] Food. Improvements on Tundra tiles provide +2 [ICON_Gold] Gold.</Text>
+            <Text>Scouts receive +3 [ICON_Strength] Combat Strength. Tundra tiles provide +1 [ICON_Production] Production. Tundra Hills provide +1 [ICON_Food] Food. Improvements on Tundra tiles provide +1 [ICON_Gold] Gold.</Text>
         </Row>
         
         <!-- ============================================ -->
@@ -30,7 +30,7 @@
         </Row>
         
         <Row Tag="LOC_TRAIT_LEADER_LEMONAIDE_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>侦察兵 +4 [ICON_Strength] 战斗力。冻土平原 +2 [ICON_Production] 产能。冻土丘陵 +1 [ICON_Food] 粮食。冻土改良设施 +2 [ICON_Gold] 金币。</Text>
+            <Text>侦察兵 +3 [ICON_Strength] 战斗力。冻土平原 +1 [ICON_Production] 产能。冻土丘陵 +1 [ICON_Food] 粮食。冻土改良设施 +1 [ICON_Gold] 金币。</Text>
         </Row>
     </LocalizedText>
 </GameData>

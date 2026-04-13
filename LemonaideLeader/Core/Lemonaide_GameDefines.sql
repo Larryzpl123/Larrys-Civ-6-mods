@@ -1,10 +1,10 @@
 --==========================================================================================================================
 -- LEMONAIDE LEADER FOR CANADA
 -- Leader Ability: Cat and Gold (基米与金币)
--- - Scouts +4 Combat Strength
--- - Tundra (flat) +2 Production
+-- - Scouts +3 Combat Strength
+-- - Tundra (flat) +1 Production
 -- - Tundra Hills +1 Food
--- - Tundra Improvements +2 Gold
+-- - Tundra Improvements +1 Gold
 --==========================================================================================================================
 
 --==========================================================================================================================
@@ -55,16 +55,16 @@ VALUES	('TRAIT_LEADER_LEMONAIDE_CAT_GOLD',		'LEMONAIDE_SCOUT_COMBAT_BONUS'),
 -- MODIFIERS
 --==========================================================================================================================
 
--- 侦察兵 +4 战斗力
+-- 侦察兵 +3 战斗力
 INSERT INTO Modifiers
 		(ModifierId,						ModifierType,									SubjectRequirementSetId)
 VALUES	('LEMONAIDE_SCOUT_COMBAT_BONUS',	'MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH',	'LEMONAIDE_SCOUT_REQUIREMENTS');
 
 INSERT INTO ModifierArguments
 		(ModifierId,						Name,		Value)
-VALUES	('LEMONAIDE_SCOUT_COMBAT_BONUS',	'Amount',	'4');
+VALUES	('LEMONAIDE_SCOUT_COMBAT_BONUS',	'Amount',	'3');
 
--- 冻土平原 +2 产能
+-- 冻土平原 +1 产能
 INSERT INTO Modifiers
 		(ModifierId,					ModifierType,							SubjectRequirementSetId)
 VALUES	('LEMONAIDE_TUNDRA_PRODUCTION',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'LEMONAIDE_TUNDRA_REQS');
@@ -72,7 +72,7 @@ VALUES	('LEMONAIDE_TUNDRA_PRODUCTION',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'LEM
 INSERT INTO ModifierArguments
 		(ModifierId,					Name,			Value)
 VALUES	('LEMONAIDE_TUNDRA_PRODUCTION',	'YieldType',	'YIELD_PRODUCTION'),
-		('LEMONAIDE_TUNDRA_PRODUCTION',	'Amount',		'2');
+		('LEMONAIDE_TUNDRA_PRODUCTION',	'Amount',		'1');
 
 -- 冻土丘陵 +1 粮食
 INSERT INTO Modifiers
@@ -92,7 +92,7 @@ VALUES	('LEMONAIDE_TUNDRA_IMPROVED_GOLD',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'
 INSERT INTO ModifierArguments
 		(ModifierId,						Name,			Value)
 VALUES	('LEMONAIDE_TUNDRA_IMPROVED_GOLD',	'YieldType',	'YIELD_GOLD'),
-		('LEMONAIDE_TUNDRA_IMPROVED_GOLD',	'Amount',		'2');
+		('LEMONAIDE_TUNDRA_IMPROVED_GOLD',	'Amount',		'1');
 
 -- 冻土丘陵改良 +1 金币
 INSERT INTO Modifiers
@@ -102,7 +102,7 @@ VALUES	('LEMONAIDE_TUNDRA_HILLS_IMPROVED_GOLD','MODIFIER_PLAYER_ADJUST_PLOT_YIEL
 INSERT INTO ModifierArguments
 		(ModifierId,								Name,			Value)
 VALUES	('LEMONAIDE_TUNDRA_HILLS_IMPROVED_GOLD',	'YieldType',	'YIELD_GOLD'),
-		('LEMONAIDE_TUNDRA_HILLS_IMPROVED_GOLD',	'Amount',		'2');
+		('LEMONAIDE_TUNDRA_HILLS_IMPROVED_GOLD',	'Amount',		'1');
 
 --==========================================================================================================================
 -- REQUIREMENT SETS
