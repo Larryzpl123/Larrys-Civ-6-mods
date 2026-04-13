@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="443B7065-12B9-40F5-9396-8D52CFC54945" version="1">
+	<Properties>
+		<Name>Larry's Happy Civilization</Name>
+		<Description>HappyCiv — Larry leader with Precise Layout (close cities +10% yields, doubled at 10 pop; far cities -100% yields). Civ ability: Astrology eureka, Holy Site buildings +1 Housing. All cities +10 Amenity, +0.1 all yields per pop (+0.2 at 10 pop).</Description>
+		<Authors>Larry</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+
+	<Dependencies>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+	</Dependencies>
+
+	<Files>
+		<File>Core/Happy_Config.xml</File>
+		<File>Core/Happy_GameDefines.sql</File>
+		<File>Core/Happy_GameText.xml</File>
+	</Files>
+
+	<FrontEndActions>
+		<UpdateDatabase id="Happy_FrontEnd_Config">
+			<File>Core/Happy_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="Happy_FrontEnd_Text">
+			<File>Core/Happy_GameText.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<InGameActions>
+		<UpdateDatabase id="Happy_InGame_Defines">
+			<File>Core/Happy_GameDefines.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="Happy_InGame_Text">
+			<File>Core/Happy_GameText.xml</File>
+		</UpdateText>
+	</InGameActions>
+</Mod>

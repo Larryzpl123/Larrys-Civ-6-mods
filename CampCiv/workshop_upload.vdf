@@ -1,0 +1,17 @@
+"workshopitem"
+{
+	"appid"		"289070"
+	"publishedfileid"		"3682762767"
+	"contentfolder"		"/Users/larryzhong/Desktop/CampCiv"
+	"previewfile"		""
+	"visibility"		"0"
+	"title"		"Larry's CampCiv"
+	"description"		"CampCiv — Larry leader with Precise Layout (close cities +10% yields scaling with pop; far cities -100% yields; settlers +1 movement/turn). Civ ability: City yields (+1 Foodm, +1 Gold) and Encampment yields (+1 Production, +1 Gold)."
+	"changenote"		"Initial Release"
+	"tags"
+	{
+		"0"		"Mod"
+		"1"		"Leaders"
+		"2"		"Civilizations"
+	}
+}

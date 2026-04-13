@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <!-- Leader Name -->
+        <Replace Tag="LOC_LEADER_AMBIGATUS_NAME" Language="en_US">
+            <Text>Ambigatus</Text>
+        </Replace>
+        <Replace Tag="LOC_LEADER_AMBIGATUS_NAME" Language="zh_Hans_CN">
+            <Text>安毕伽图斯</Text>
+        </Replace>
+
+        <!-- Leader Ability Name -->
+        <Replace Tag="LOC_TRAIT_LEADER_AMBIGATUS_NAME" Language="en_US">
+            <Text>Prosperous Mines</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_AMBIGATUS_NAME" Language="zh_Hans_CN">
+            <Text>沃矿兴邦</Text>
+        </Replace>
+
+        <!-- Leader Ability Description -->
+        <Replace Tag="LOC_TRAIT_LEADER_AMBIGATUS_DESCRIPTION" Language="en_US">
+            <Text>Mines receive -1 [ICON_Production] Production, +1 [ICON_Food] Food, and +1 [ICON_Gold] Gold. Mines in a city with an Oppidum receive an additional +1 [ICON_Gold] Gold. The Oppidum and its buildings provide +1 [ICON_Housing] Housing each.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_AMBIGATUS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>矿山-1 [ICON_Production] 生产力，+1 [ICON_Food] 粮食，+1 [ICON_Gold] 金币，拥有奥皮杜姆的城市中的矿山再+1 [ICON_Gold] 金币。奥皮杜姆及其建筑+1 [ICON_Housing] 住房。</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

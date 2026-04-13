@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ===== CIVILIZATION ===== -->
+		<Row Language="en_US" Tag="LOC_CIVILIZATION_LARRY_HAPPY_NAME">
+			<Text>Happy</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LARRY_HAPPY_NAME">
+			<Text>快乐</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVILIZATION_LARRY_HAPPY_DESCRIPTION">
+			<Text>Happy Civilization</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LARRY_HAPPY_DESCRIPTION">
+			<Text>快乐文明</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CIVILIZATION_LARRY_HAPPY_ADJECTIVE">
+			<Text>Happy</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LARRY_HAPPY_ADJECTIVE">
+			<Text>快乐</Text>
+		</Row>
+
+		<!-- ===== LEADER ===== -->
+		<Row Language="en_US" Tag="LOC_LEADER_LARRY_HAPPY_NAME">
+			<Text>Larry</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_LARRY_HAPPY_NAME">
+			<Text>Larry</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_LEADER_LARRY_HAPPY_QUOTE">
+			<Text>Happiness is the ultimate pursuit of civilization.</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_LARRY_HAPPY_QUOTE">
+			<Text>快乐是文明的终极追求。</Text>
+		</Row>
+
+		<!-- ===== LEADER ABILITY: 精铺 ===== -->
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_LARRY_HAPPY_NAME">
+			<Text>Precise Layout</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_LARRY_HAPPY_NAME">
+			<Text>精铺</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_LEADER_LARRY_HAPPY_DESCRIPTION">
+			<Text>Non-capital cities within 6 tiles of your [ICON_Capital] Capital receive +10% to all yields, with an additional +10% for every 10 [ICON_Citizen] Population (Max 50%). Non-capital cities more than 6 tiles from your Capital receive -100% to all yields. [ICON_Movement] Settlers receive +1 Movement per turn.</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_LARRY_HAPPY_DESCRIPTION">
+			<Text>首都 [ICON_Capital] 6单元格范围内的非首都城市 +10% 全产出，每有10 [ICON_Citizen] 人口再 +10% 全产出（最高 +50%）。所有6单元格外的非首都城市 -100% 全产出。开拓者每回合 +1 [ICON_Movement] 移动力。</Text>
+		</Row>
+
+		<!-- ===== CIV ABILITY: 快乐的人民 ===== -->
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_LARRY_HAPPY_NAME">
+			<Text>Happy People</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_LARRY_HAPPY_NAME">
+			<Text>快乐的人民</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_LARRY_HAPPY_DESCRIPTION">
+			<Text>Start with the [ICON_TechBoosted] Astrology Eureka. [ICON_District] Holy Site buildings provide +1 [ICON_Housing] Housing each. All cities receive +10 [ICON_Amenities] Amenities. +0.1 [ICON_Food] Food, [ICON_Production] Production, [ICON_Gold] Gold, [ICON_Science] Science, [ICON_Faith] Faith, and [ICON_Culture] Culture per [ICON_Citizen] Population. Cities with 10 or more [ICON_Citizen] Population double this bonus.</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_LARRY_HAPPY_DESCRIPTION">
+			<Text>开局拥有占星术尤里卡，圣地建筑 +1 [ICON_Housing] 住房。城市宜居度 +10 [ICON_Amenities]，每个 [ICON_Citizen] 人口 +0.1 全产出，10个 [ICON_Citizen] 人口以上的城市翻倍。</Text>
+		</Row>
+
+		<!-- ===== SETTLER ABILITY (hidden, Inactive=1) ===== -->
+		<Row Language="en_US" Tag="LOC_AB_HAPPY_SETTLER_ADD_MOVE_NAME">
+			<Text>Precise Layout</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_AB_HAPPY_SETTLER_ADD_MOVE_NAME">
+			<Text>精铺</Text>
+		</Row>
+
+		<!-- ===== CITY NAMES ===== -->
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_1">
+			<Text>Joyville</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_1">
+			<Text>欢乐城</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_2">
+			<Text>Blissburg</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_2">
+			<Text>幸福堡</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_3">
+			<Text>Serenity</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_3">
+			<Text>安宁</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_4">
+			<Text>Euphoria</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_4">
+			<Text>快活谷</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_5">
+			<Text>Harmony</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_5">
+			<Text>和谐</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_6">
+			<Text>Delight</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_6">
+			<Text>喜悦</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_7">
+			<Text>Radiance</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_7">
+			<Text>光辉</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_8">
+			<Text>Mirthland</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_8">
+			<Text>欢笑地</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_9">
+			<Text>Felicity</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_9">
+			<Text>福地</Text>
+		</Row>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LARRY_HAPPY_10">
+			<Text>Jubilee</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LARRY_HAPPY_10">
+			<Text>庆典</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

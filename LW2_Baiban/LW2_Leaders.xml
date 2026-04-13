@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_LW2_SCIENCE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_SCIENCE" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LW2_CULTURE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_CULTURE" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LW2_THEOLOGY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_THEOLOGY" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LW2_AGRICULTURE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_AGRICULTURE" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LW2_INDUSTRY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_INDUSTRY" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LW2_COMMERCE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_COMMERCE" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LW2_MILITARY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_LW2_MILITARY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_LW2_SCIENCE" Name="LOC_LEADER_LW2_SCIENCE_NAME" InheritFrom="LEADER_DEFAULT"/>
+		<Row LeaderType="LEADER_LW2_CULTURE" Name="LOC_LEADER_LW2_CULTURE_NAME" InheritFrom="LEADER_DEFAULT"/>
+		<Row LeaderType="LEADER_LW2_THEOLOGY" Name="LOC_LEADER_LW2_THEOLOGY_NAME" InheritFrom="LEADER_DEFAULT"/>
+		<Row LeaderType="LEADER_LW2_AGRICULTURE" Name="LOC_LEADER_LW2_AGRICULTURE_NAME" InheritFrom="LEADER_DEFAULT"/>
+		<Row LeaderType="LEADER_LW2_INDUSTRY" Name="LOC_LEADER_LW2_INDUSTRY_NAME" InheritFrom="LEADER_DEFAULT"/>
+		<Row LeaderType="LEADER_LW2_COMMERCE" Name="LOC_LEADER_LW2_COMMERCE_NAME" InheritFrom="LEADER_DEFAULT"/>
+		<Row LeaderType="LEADER_LW2_MILITARY" Name="LOC_LEADER_LW2_MILITARY_NAME" InheritFrom="LEADER_DEFAULT"/>
+	</Leaders>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_LW2_SCIENCE" Name="LOC_TRAIT_LEADER_LW2_SCIENCE_NAME" Description="LOC_TRAIT_LEADER_LW2_SCIENCE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LW2_CULTURE" Name="LOC_TRAIT_LEADER_LW2_CULTURE_NAME" Description="LOC_TRAIT_LEADER_LW2_CULTURE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LW2_THEOLOGY" Name="LOC_TRAIT_LEADER_LW2_THEOLOGY_NAME" Description="LOC_TRAIT_LEADER_LW2_THEOLOGY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LW2_AGRICULTURE" Name="LOC_TRAIT_LEADER_LW2_AGRICULTURE_NAME" Description="LOC_TRAIT_LEADER_LW2_AGRICULTURE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LW2_INDUSTRY" Name="LOC_TRAIT_LEADER_LW2_INDUSTRY_NAME" Description="LOC_TRAIT_LEADER_LW2_INDUSTRY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LW2_COMMERCE" Name="LOC_TRAIT_LEADER_LW2_COMMERCE_NAME" Description="LOC_TRAIT_LEADER_LW2_COMMERCE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LW2_MILITARY" Name="LOC_TRAIT_LEADER_LW2_MILITARY_NAME" Description="LOC_TRAIT_LEADER_LW2_MILITARY_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_LW2_SCIENCE" TraitType="TRAIT_LEADER_LW2_SCIENCE"/>
+		<Row LeaderType="LEADER_LW2_CULTURE" TraitType="TRAIT_LEADER_LW2_CULTURE"/>
+		<Row LeaderType="LEADER_LW2_THEOLOGY" TraitType="TRAIT_LEADER_LW2_THEOLOGY"/>
+		<Row LeaderType="LEADER_LW2_AGRICULTURE" TraitType="TRAIT_LEADER_LW2_AGRICULTURE"/>
+		<Row LeaderType="LEADER_LW2_INDUSTRY" TraitType="TRAIT_LEADER_LW2_INDUSTRY"/>
+		<Row LeaderType="LEADER_LW2_COMMERCE" TraitType="TRAIT_LEADER_LW2_COMMERCE"/>
+		<Row LeaderType="LEADER_LW2_MILITARY" TraitType="TRAIT_LEADER_LW2_MILITARY"/>
+	</LeaderTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_LW2_SCIENCE" ForegroundImage="ICON_LEADER_LW2_SCIENCE" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+		<Row LeaderType="LEADER_LW2_CULTURE" ForegroundImage="ICON_LEADER_LW2_CULTURE" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+		<Row LeaderType="LEADER_LW2_THEOLOGY" ForegroundImage="ICON_LEADER_LW2_THEOLOGY" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+		<Row LeaderType="LEADER_LW2_AGRICULTURE" ForegroundImage="ICON_LEADER_LW2_AGRICULTURE" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+		<Row LeaderType="LEADER_LW2_INDUSTRY" ForegroundImage="ICON_LEADER_LW2_INDUSTRY" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+		<Row LeaderType="LEADER_LW2_COMMERCE" ForegroundImage="ICON_LEADER_LW2_COMMERCE" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+		<Row LeaderType="LEADER_LW2_MILITARY" ForegroundImage="ICON_LEADER_LW2_MILITARY" BackgroundImage="" PlayDawnOfManAudio="0" EraText="" LeaderText=""/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_LW2_SCIENCE" BackgroundImage=""/>
+		<Row Type="LEADER_LW2_CULTURE" BackgroundImage=""/>
+		<Row Type="LEADER_LW2_THEOLOGY" BackgroundImage=""/>
+		<Row Type="LEADER_LW2_AGRICULTURE" BackgroundImage=""/>
+		<Row Type="LEADER_LW2_INDUSTRY" BackgroundImage=""/>
+		<Row Type="LEADER_LW2_COMMERCE" BackgroundImage=""/>
+		<Row Type="LEADER_LW2_MILITARY" BackgroundImage=""/>
+	</DiplomacyInfo>
+</GameData>

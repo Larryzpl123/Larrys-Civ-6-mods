@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_WHQ_NAME" Language="en_US">
+			<Text>Wan Huai Qiu</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_WHQ_NAME" Language="zh_Hans_CN">
+			<Text>晚槐秋</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_WHQ_QUOTE" Language="en_US">
+			<Text>The frozen earth yields to those who wait with patience.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_WHQ_QUOTE" Language="zh_Hans_CN">
+			<Text>冻土终将让步于耐心的等待者。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WHQ_NAME" Language="en_US">
+			<Text>Frozen Harvest</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WHQ_NAME" Language="zh_Hans_CN">
+			<Text>冻土春耕</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WHQ_DESCRIPTION" Language="en_US">
+			<Text>Tundra and Tundra Hills tiles receive -1 [ICON_Production] Production, +1 [ICON_Food] Food, +1 [ICON_Gold] Gold. Each [ICON_Citizen] Population provides +0.5 [ICON_Production] Production, +0.5 [ICON_Science] Science, +0.5 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_WHQ_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>冻土和冻土丘陵单元格 -1 [ICON_Production] 生产力，+1 [ICON_Food] 粮食，+1 [ICON_Gold] 金币。每个 [ICON_Citizen] 人口提供 +0.5 [ICON_Production] 生产力，+0.5 [ICON_Science] 科技，+0.5 [ICON_Culture] 文化。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

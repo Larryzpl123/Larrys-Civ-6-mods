@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ======================================================== -->
+	<!-- ABILITIES: Government Plaza & buildings → melee +1 CS    -->
+	<!-- 4 separate abilities, each +1, stacking up to +4         -->
+	<!-- GOV_0 = district, GOV_1 = T1, GOV_2 = T2, GOV_3 = T3   -->
+	<!-- ======================================================== -->
+	<Types>
+		<Row Type="ABILITY_ROMULUS_GOV_0" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROMULUS_GOV_1" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROMULUS_GOV_2" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROMULUS_GOV_3" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_0"
+			 Name="LOC_ABILITY_ROMULUS_GOV_NAME"
+			 Description="LOC_ABILITY_ROMULUS_GOV_DESC"
+			 Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_1"
+			 Name="LOC_ABILITY_ROMULUS_GOV_NAME"
+			 Description="LOC_ABILITY_ROMULUS_GOV_DESC"
+			 Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_2"
+			 Name="LOC_ABILITY_ROMULUS_GOV_NAME"
+			 Description="LOC_ABILITY_ROMULUS_GOV_DESC"
+			 Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_3"
+			 Name="LOC_ABILITY_ROMULUS_GOV_NAME"
+			 Description="LOC_ABILITY_ROMULUS_GOV_DESC"
+			 Inactive="true"/>
+	</UnitAbilities>
+
+	<!-- Tag restricts all four abilities to melee promotion class -->
+	<TypeTags>
+		<Row Type="ABILITY_ROMULUS_GOV_0" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_ROMULUS_GOV_1" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_ROMULUS_GOV_2" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_ROMULUS_GOV_3" Tag="CLASS_MELEE"/>
+	</TypeTags>
+
+	<!-- Link each ability to its +1 CS modifier -->
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_0" ModifierId="ROM_GOV_CS_0"/>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_1" ModifierId="ROM_GOV_CS_1"/>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_2" ModifierId="ROM_GOV_CS_2"/>
+		<Row UnitAbilityType="ABILITY_ROMULUS_GOV_3" ModifierId="ROM_GOV_CS_3"/>
+	</UnitAbilityModifiers>
+
+	<!-- The actual +1 combat strength modifiers -->
+	<Modifiers>
+		<Row ModifierId="ROM_GOV_CS_0" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH"/>
+		<Row ModifierId="ROM_GOV_CS_1" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH"/>
+		<Row ModifierId="ROM_GOV_CS_2" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH"/>
+		<Row ModifierId="ROM_GOV_CS_3" ModifierType="MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="ROM_GOV_CS_0" Name="Amount" Value="1"/>
+		<Row ModifierId="ROM_GOV_CS_1" Name="Amount" Value="1"/>
+		<Row ModifierId="ROM_GOV_CS_2" Name="Amount" Value="1"/>
+		<Row ModifierId="ROM_GOV_CS_3" Name="Amount" Value="1"/>
+	</ModifierArguments>
+</GameData>

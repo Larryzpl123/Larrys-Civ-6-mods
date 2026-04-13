@@ -1,0 +1,19 @@
+"workshopitem"
+{
+	"appid"		"289070"
+	"publishedfileid"		"3673653421"
+	"contentfolder"		"/Users/larryzhong/Desktop/AdamSmith_Scotland"
+	"previewfile"		""
+	"visibility"		"0"
+	"title"		"Adam Smith, New Leader of Scotland"
+	"description"		"Leader Ability - Invisible Hand
+Districts, Buildings, and Resources provide +1 Gold.
+
+Compatible with Team PVP Balanced mod and BBG (Better Balanced Game)."
+	"changenote"		"Bug Fix of strategic resources +1 Gold before Related Tech Researched and Leylines."
+	"tags"
+	{
+		"0"		"Mod"
+		"1"		"Leader"
+	}
+}

@@ -1,0 +1,310 @@
+-- ==========================================================================
+-- 快乐文明 (Happy Civilization) — Leader: Larry
+-- 领袖能力 "精铺"
+--   首都6格内非首都城市 +10% 全产出，每有10人口再 +10%
+--   6格外非首都城市 -100% 全产出
+--   开拓者每回合 +1 移动力
+-- 文明能力 "快乐的人民"
+--   占星术尤里卡，圣地建筑+1住房，宜居度+10，
+--   每人口+0.1全产出（10人口翻倍）
+-- ==========================================================================
+
+-- ============================================
+-- TYPES
+-- ============================================
+INSERT INTO Types (Type, Kind) VALUES
+('CIVILIZATION_LARRY_HAPPY',           'KIND_CIVILIZATION'),
+('LEADER_LARRY_HAPPY',                 'KIND_LEADER'),
+('TRAIT_LEADER_LARRY_HAPPY',           'KIND_TRAIT'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY',     'KIND_TRAIT');
+
+-- ============================================
+-- CIVILIZATIONS
+-- ============================================
+INSERT INTO Civilizations
+		(CivilizationType,            Name,                                   Description,                                   Adjective,                                   StartingCivilizationLevelType, RandomCityNameDepth)
+VALUES	('CIVILIZATION_LARRY_HAPPY',  'LOC_CIVILIZATION_LARRY_HAPPY_NAME',    'LOC_CIVILIZATION_LARRY_HAPPY_DESCRIPTION',    'LOC_CIVILIZATION_LARRY_HAPPY_ADJECTIVE',    'CIVILIZATION_LEVEL_FULL_CIV', 10);
+
+-- ============================================
+-- LEADERS
+-- ============================================
+INSERT INTO Leaders
+		(LeaderType,           Name,                            InheritFrom,      SceneLayers)
+VALUES	('LEADER_LARRY_HAPPY', 'LOC_LEADER_LARRY_HAPPY_NAME',   'LEADER_DEFAULT', 4);
+
+INSERT INTO LeaderQuotes
+		(LeaderType,           Quote)
+VALUES	('LEADER_LARRY_HAPPY', 'LOC_LEADER_LARRY_HAPPY_QUOTE');
+
+INSERT INTO CivilizationLeaders
+		(CivilizationType,           LeaderType,           CapitalName)
+VALUES	('CIVILIZATION_LARRY_HAPPY', 'LEADER_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_1');
+
+-- ============================================
+-- TRAITS
+-- ============================================
+INSERT INTO Traits (TraitType, Name, Description) VALUES
+('TRAIT_LEADER_LARRY_HAPPY',        'LOC_TRAIT_LEADER_LARRY_HAPPY_NAME',        'LOC_TRAIT_LEADER_LARRY_HAPPY_DESCRIPTION'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY',  'LOC_TRAIT_CIVILIZATION_LARRY_HAPPY_NAME',  'LOC_TRAIT_CIVILIZATION_LARRY_HAPPY_DESCRIPTION');
+
+INSERT INTO LeaderTraits (LeaderType, TraitType) VALUES
+('LEADER_LARRY_HAPPY', 'TRAIT_LEADER_LARRY_HAPPY');
+
+INSERT INTO CivilizationTraits (CivilizationType, TraitType) VALUES
+('CIVILIZATION_LARRY_HAPPY', 'TRAIT_CIVILIZATION_LARRY_HAPPY');
+
+-- ============================================
+-- AGENDA
+-- ============================================
+INSERT INTO HistoricalAgendas (LeaderType, AgendaType) VALUES
+('LEADER_LARRY_HAPPY', 'AGENDA_EXPLORER');
+
+-- ============================================
+-- CITY NAMES
+-- ============================================
+INSERT INTO CityNames (CivilizationType, CityName) VALUES
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_1'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_2'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_3'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_4'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_5'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_6'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_7'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_8'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_9'),
+('CIVILIZATION_LARRY_HAPPY', 'LOC_CITY_NAME_LARRY_HAPPY_10');
+
+-- ==========================================================================
+-- REQUIREMENTS
+-- ==========================================================================
+
+-- Holy Site & building requirements (civ ability)
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('REQ_HAPPY_DIST_IS_HS',        'REQUIREMENT_DISTRICT_TYPE_MATCHES'),
+('REQ_HAPPY_CITY_HAS_SHRINE',   'REQUIREMENT_CITY_HAS_BUILDING'),
+('REQ_HAPPY_CITY_HAS_TEMPLE',   'REQUIREMENT_CITY_HAS_BUILDING');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQ_HAPPY_DIST_IS_HS',        'DistrictType', 'DISTRICT_HOLY_SITE'),
+('REQ_HAPPY_CITY_HAS_SHRINE',   'BuildingType',  'BUILDING_SHRINE'),
+('REQ_HAPPY_CITY_HAS_TEMPLE',   'BuildingType',  'BUILDING_TEMPLE');
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+('REQSET_HAPPY_HS_SHRINE', 'REQUIREMENTSET_TEST_ALL'),
+('REQSET_HAPPY_HS_TEMPLE', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+('REQSET_HAPPY_HS_SHRINE', 'REQ_HAPPY_DIST_IS_HS'),
+('REQSET_HAPPY_HS_SHRINE', 'REQ_HAPPY_CITY_HAS_SHRINE'),
+('REQSET_HAPPY_HS_TEMPLE', 'REQ_HAPPY_DIST_IS_HS'),
+('REQSET_HAPPY_HS_TEMPLE', 'REQ_HAPPY_CITY_HAS_TEMPLE');
+
+-- Population thresholds: 10, 20, 30, 40, 50 (leader ability scaling)
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('REQ_HAPPY_CITY_10POP', 'REQUIREMENT_CITY_HAS_X_POPULATION'),
+('REQ_HAPPY_CITY_20POP', 'REQUIREMENT_CITY_HAS_X_POPULATION'),
+('REQ_HAPPY_CITY_30POP', 'REQUIREMENT_CITY_HAS_X_POPULATION'),
+('REQ_HAPPY_CITY_40POP', 'REQUIREMENT_CITY_HAS_X_POPULATION'),
+('REQ_HAPPY_CITY_50POP', 'REQUIREMENT_CITY_HAS_X_POPULATION');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('REQ_HAPPY_CITY_10POP', 'Amount', '10'),
+('REQ_HAPPY_CITY_20POP', 'Amount', '20'),
+('REQ_HAPPY_CITY_30POP', 'Amount', '30'),
+('REQ_HAPPY_CITY_40POP', 'Amount', '40'),
+('REQ_HAPPY_CITY_50POP', 'Amount', '50');
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+('REQSET_HAPPY_10POP', 'REQUIREMENTSET_TEST_ALL'),
+('REQSET_HAPPY_20POP', 'REQUIREMENTSET_TEST_ALL'),
+('REQSET_HAPPY_30POP', 'REQUIREMENTSET_TEST_ALL'),
+('REQSET_HAPPY_40POP', 'REQUIREMENTSET_TEST_ALL'),
+('REQSET_HAPPY_50POP', 'REQUIREMENTSET_TEST_ALL');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+('REQSET_HAPPY_10POP', 'REQ_HAPPY_CITY_10POP'),
+('REQSET_HAPPY_20POP', 'REQ_HAPPY_CITY_20POP'),
+('REQSET_HAPPY_30POP', 'REQ_HAPPY_CITY_30POP'),
+('REQSET_HAPPY_40POP', 'REQ_HAPPY_CITY_40POP'),
+('REQSET_HAPPY_50POP', 'REQ_HAPPY_CITY_50POP');
+
+-- ==========================================================================
+-- PART 1: LEADER ABILITY — 精铺
+-- ==========================================================================
+
+-- 1a) +10% all yields: non-capital cities within 6 tiles of capital
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('HAPPY_CAPITAL_NEARBY_YIELD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'OBJECT_IS_FOUNDED_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_CAPITAL_NEARBY_YIELD', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_NEARBY_YIELD', 'Amount', '10,10,10,10,10,10');
+
+-- 1b) Per-10-pop scaling: +10% per 10 pop (tiers at 10, 20, 30, 40, 50)
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('HAPPY_CAPITAL_10POP_YIELD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'REQSET_HAPPY_10POP'),
+('HAPPY_CAPITAL_20POP_YIELD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'REQSET_HAPPY_20POP'),
+('HAPPY_CAPITAL_30POP_YIELD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'REQSET_HAPPY_30POP'),
+('HAPPY_CAPITAL_40POP_YIELD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'REQSET_HAPPY_40POP'),
+('HAPPY_CAPITAL_50POP_YIELD', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'REQSET_HAPPY_50POP');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_CAPITAL_10POP_YIELD', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_10POP_YIELD', 'Amount', '10,10,10,10,10,10'),
+('HAPPY_CAPITAL_20POP_YIELD', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_20POP_YIELD', 'Amount', '10,10,10,10,10,10'),
+('HAPPY_CAPITAL_30POP_YIELD', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_30POP_YIELD', 'Amount', '10,10,10,10,10,10'),
+('HAPPY_CAPITAL_40POP_YIELD', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_40POP_YIELD', 'Amount', '10,10,10,10,10,10'),
+('HAPPY_CAPITAL_50POP_YIELD', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_50POP_YIELD', 'Amount', '10,10,10,10,10,10');
+
+-- 1c) -100% all yields: non-capital cities 7+ tiles from capital
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('HAPPY_CAPITAL_FAR_PENALTY', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA', 'OBJECT_IS_7_OR_MORE_TILES_FROM_CAPITAL_REQUIREMENTS');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_CAPITAL_FAR_PENALTY', 'YieldType', 'YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_FAITH'),
+('HAPPY_CAPITAL_FAR_PENALTY', 'Amount', '-100,-100,-100,-100,-100,-100');
+
+-- ==========================================================================
+-- PART 1d: SETTLER MOVEMENT (flat +1 immediate, then +1/turn cumulative)
+-- ==========================================================================
+
+-- Ability Type & Tag
+INSERT OR IGNORE INTO Types (Type, Kind) VALUES
+('AB_HAPPY_SETTLER_ADD_MOVE', 'KIND_ABILITY');
+
+INSERT OR IGNORE INTO Tags (Tag, Vocabulary) VALUES
+('HAPPY_CLASS_AB_SETTLER_MOVE', 'ABILITY_CLASS');
+
+INSERT OR IGNORE INTO TypeTags (Type, Tag) VALUES
+('AB_HAPPY_SETTLER_ADD_MOVE', 'HAPPY_CLASS_AB_SETTLER_MOVE'),
+('UNIT_SETTLER',              'HAPPY_CLASS_AB_SETTLER_MOVE');
+
+INSERT OR IGNORE INTO UnitAbilities (UnitAbilityType, Inactive, Name, Description) VALUES
+('AB_HAPPY_SETTLER_ADD_MOVE', 1,
+ 'LOC_AB_HAPPY_SETTLER_ADD_MOVE_NAME',
+ 'LOC_AB_HAPPY_SETTLER_ADD_MOVE_NAME');
+
+-- Grant ability to player's units via leader trait
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_SETTLER_GRANT_MOVE_AB');
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, NewOnly, OwnerRequirementSetId, SubjectRequirementSetId) VALUES
+('HAPPY_SETTLER_GRANT_MOVE_AB', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 0, 1, 0, NULL, NULL);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_SETTLER_GRANT_MOVE_AB', 'AbilityType', 'AB_HAPPY_SETTLER_ADD_MOVE');
+
+-- Flat +1 movement (immediate from production turn)
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
+('AB_HAPPY_SETTLER_ADD_MOVE', 'HAPPY_SETTLER_MOVE_FLAT');
+
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+('HAPPY_SETTLER_MOVE_FLAT', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_SETTLER_MOVE_FLAT', 'Amount', '1');
+
+-- Attach +1 movement per turn (cumulative, starts from next turn start)
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
+('AB_HAPPY_SETTLER_ADD_MOVE', 'HAPPY_SETTLER_MOVE_ATTACH');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('HAPPY_SETTLER_MOVE_ATTACH', 'MODIFIER_SINGLE_UNIT_ATTACH_MODIFIER', 'ON_TURN_STARTED');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_SETTLER_MOVE_ATTACH', 'ModifierId', 'HAPPY_SETTLER_MOVE_STACK');
+
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+('HAPPY_SETTLER_MOVE_STACK', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_SETTLER_MOVE_STACK', 'Amount', '1');
+
+-- ==========================================================================
+-- PART 2: CIV ABILITY — 快乐的人民 (unchanged)
+-- ==========================================================================
+
+-- 2a) Astrology Eureka
+INSERT INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent) VALUES
+('HAPPY_ASTROLOGY_EUREKA', 'MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST', 1, 1);
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_ASTROLOGY_EUREKA', 'TechType', 'TECH_ASTROLOGY');
+
+-- 2b) Holy Site buildings +1 Housing
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('HAPPY_HS_HOUSING_SHRINE', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING', 'REQSET_HAPPY_HS_SHRINE'),
+('HAPPY_HS_HOUSING_TEMPLE', 'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING', 'REQSET_HAPPY_HS_TEMPLE');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_HS_HOUSING_SHRINE', 'Amount', '1'),
+('HAPPY_HS_HOUSING_TEMPLE', 'Amount', '1');
+
+-- 2c) All cities +10 Amenity
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+('HAPPY_AMENITY_PLUS1', 'MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_AMENITY_PLUS1', 'Amount', '10');
+
+-- 2d) Per population +0.1 all yields
+INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+('HAPPY_POP_FOOD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION'),
+('HAPPY_POP_PROD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION'),
+('HAPPY_POP_GOLD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION'),
+('HAPPY_POP_SCIENCE', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION'),
+('HAPPY_POP_CULTURE', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION'),
+('HAPPY_POP_FAITH',   'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_POP_FOOD',    'YieldType', 'YIELD_FOOD'),    ('HAPPY_POP_FOOD',    'Amount', '0.1'),
+('HAPPY_POP_PROD',    'YieldType', 'YIELD_PRODUCTION'),('HAPPY_POP_PROD',    'Amount', '0.1'),
+('HAPPY_POP_GOLD',    'YieldType', 'YIELD_GOLD'),    ('HAPPY_POP_GOLD',    'Amount', '0.1'),
+('HAPPY_POP_SCIENCE', 'YieldType', 'YIELD_SCIENCE'), ('HAPPY_POP_SCIENCE', 'Amount', '0.1'),
+('HAPPY_POP_CULTURE', 'YieldType', 'YIELD_CULTURE'), ('HAPPY_POP_CULTURE', 'Amount', '0.1'),
+('HAPPY_POP_FAITH',   'YieldType', 'YIELD_FAITH'),   ('HAPPY_POP_FAITH',   'Amount', '0.1');
+
+-- 2e) 10+ pop: additional +0.1 per pop
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('HAPPY_POP10_FOOD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 'REQSET_HAPPY_10POP'),
+('HAPPY_POP10_PROD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 'REQSET_HAPPY_10POP'),
+('HAPPY_POP10_GOLD',    'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 'REQSET_HAPPY_10POP'),
+('HAPPY_POP10_SCIENCE', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 'REQSET_HAPPY_10POP'),
+('HAPPY_POP10_CULTURE', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 'REQSET_HAPPY_10POP'),
+('HAPPY_POP10_FAITH',   'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION', 'REQSET_HAPPY_10POP');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('HAPPY_POP10_FOOD',    'YieldType', 'YIELD_FOOD'),    ('HAPPY_POP10_FOOD',    'Amount', '0.1'),
+('HAPPY_POP10_PROD',    'YieldType', 'YIELD_PRODUCTION'),('HAPPY_POP10_PROD',    'Amount', '0.1'),
+('HAPPY_POP10_GOLD',    'YieldType', 'YIELD_GOLD'),    ('HAPPY_POP10_GOLD',    'Amount', '0.1'),
+('HAPPY_POP10_SCIENCE', 'YieldType', 'YIELD_SCIENCE'), ('HAPPY_POP10_SCIENCE', 'Amount', '0.1'),
+('HAPPY_POP10_CULTURE', 'YieldType', 'YIELD_CULTURE'), ('HAPPY_POP10_CULTURE', 'Amount', '0.1'),
+('HAPPY_POP10_FAITH',   'YieldType', 'YIELD_FAITH'),   ('HAPPY_POP10_FAITH',   'Amount', '0.1');
+
+-- ==========================================================================
+-- BIND MODIFIERS TO TRAITS
+-- ==========================================================================
+
+-- Leader Trait: 精铺 (yield scaling + settler movement)
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_NEARBY_YIELD'),
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_10POP_YIELD'),
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_20POP_YIELD'),
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_30POP_YIELD'),
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_40POP_YIELD'),
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_50POP_YIELD'),
+('TRAIT_LEADER_LARRY_HAPPY', 'HAPPY_CAPITAL_FAR_PENALTY');
+-- (HAPPY_SETTLER_GRANT_MOVE_AB already bound above)
+
+-- Civ Trait: 快乐的人民 (unchanged)
+INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_ASTROLOGY_EUREKA'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_HS_HOUSING_SHRINE'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_HS_HOUSING_TEMPLE'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_AMENITY_PLUS1'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP_FOOD'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP_PROD'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP_GOLD'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP_SCIENCE'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP_CULTURE'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP_FAITH'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP10_FOOD'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP10_PROD'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP10_GOLD'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP10_SCIENCE'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP10_CULTURE'),
+('TRAIT_CIVILIZATION_LARRY_HAPPY', 'HAPPY_POP10_FAITH');

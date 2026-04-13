@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ADAM_SMITH_SCOTLAND_MOD" version="1">
+  <Properties>
+    <Name>LOC_MOD_ADAM_SMITH_TITLE</Name>
+    <Description>LOC_MOD_ADAM_SMITH_DESCRIPTION</Description>
+    <Teaser>LOC_MOD_ADAM_SMITH_TEASER</Teaser>
+    <Authors>Larry</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+
+  <LocalizedText>
+    <Text id="LOC_MOD_ADAM_SMITH_TITLE">
+      <en_US>Adam Smith - Scotland</en_US>
+      <zh_Hans_CN>亚当·斯密 - 苏格兰</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_MOD_ADAM_SMITH_DESCRIPTION">
+      <en_US>Adds Adam Smith as an alternative leader for Scotland.</en_US>
+      <zh_Hans_CN>添加了苏格兰的新领袖，亚当·斯密。</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_MOD_ADAM_SMITH_TEASER">
+      <en_US>Adam Smith leads Scotland</en_US>
+      <zh_Hans_CN>亚当·斯密领导的苏格兰</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
+  </Dependencies>
+
+  <!-- ============================================================ -->
+  <!-- FrontEndActions: 只能用 Configuration DB 的表                   -->
+  <!-- Players, PlayerLeaders, PlayerItems 等                         -->
+  <!-- 绝不能加载含 Types/Leaders/Traits 等 Gameplay 表的文件！         -->
+  <!-- ============================================================ -->
+  <FrontEndActions>
+    <UpdateDatabase id="AdamSmith_FrontEnd">
+      <File>Data/FrontEnd_AdamSmith.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="AdamSmith_FrontEndText">
+      <File>Data/Localization_AdamSmith.sql</File>
+    </UpdateText>
+  </FrontEndActions>
+
+  <!-- ============================================================ -->
+  <!-- InGameActions: 使用 Gameplay DB 的表                            -->
+  <!-- Types, Leaders, Traits, Modifiers 等全部在这里加载               -->
+  <!-- ============================================================ -->
+  <InGameActions>
+    <UpdateDatabase id="AdamSmith_Gameplay">
+      <File>Data/Config_AdamSmith.sql</File>
+      <File>Data/Gameplay_AdamSmith.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="AdamSmith_GameplayText">
+      <File>Data/Localization_AdamSmith.sql</File>
+    </UpdateText>
+  </InGameActions>
+
+  <Files>
+    <File>Data/FrontEnd_AdamSmith.sql</File>
+    <File>Data/Config_AdamSmith.sql</File>
+    <File>Data/Gameplay_AdamSmith.sql</File>
+    <File>Data/Localization_AdamSmith.sql</File>
+  </Files>
+</Mod>

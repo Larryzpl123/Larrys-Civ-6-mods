@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LW_BAIBAN_NAME" Language="en_US"><Text>Whiteboard Civ</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW_BAIBAN_NAME" Language="zh_Hans_CN"><Text>卤味白板文明</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW_BAIBAN_DESCRIPTION" Language="en_US"><Text>A whiteboard civilization.</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW_BAIBAN_DESCRIPTION" Language="zh_Hans_CN"><Text>白板文明，无特色单位/建筑/区域。</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW_BAIBAN_ADJECTIVE" Language="en_US"><Text>Your</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW_BAIBAN_ADJECTIVE" Language="zh_Hans_CN"><Text>你的</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LW_BAIBAN_NAME" Language="en_US"><Text>Whiteboard</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LW_BAIBAN_NAME" Language="zh_Hans_CN"><Text>白板</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LW_BAIBAN_DESCRIPTION" Language="en_US"><Text>No unique civilization abilities.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LW_BAIBAN_DESCRIPTION" Language="zh_Hans_CN"><Text>无文明特色能力。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_SCIENCE_NAME" Language="en_US"><Text>Science Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_SCIENCE_NAME" Language="zh_Hans_CN"><Text>科学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_SCIENCE_NAME" Language="en_US"><Text>Science</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_SCIENCE_NAME" Language="zh_Hans_CN"><Text>科学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_SCIENCE_DESCRIPTION" Language="en_US"><Text>+1 [ICON_SCIENCE] Science from City Center.[NEWLINE]Improvements: +1 after Writing, +2 after Education, +3 after Chemistry.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_SCIENCE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_SCIENCE]科技。[NEWLINE]解锁写作后改良设施+1[ICON_SCIENCE]科技，教育后+2，化学后+3。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_CULTURE_NAME" Language="en_US"><Text>Culture Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_CULTURE_NAME" Language="zh_Hans_CN"><Text>文学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_CULTURE_NAME" Language="en_US"><Text>Culture</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_CULTURE_NAME" Language="zh_Hans_CN"><Text>文学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_CULTURE_DESCRIPTION" Language="en_US"><Text>+1 [ICON_CULTURE] Culture from City Center (+1 more after Political Philosophy).[NEWLINE]Improvements: +1 after Drama & Poetry, +2 after Humanism, +3 after Mass Media.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_CULTURE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_CULTURE]文化。解锁政治哲学后市中心再+1[ICON_CULTURE]。[NEWLINE]解锁戏剧与诗歌后改良设施+1[ICON_CULTURE]文化，人文主义后+2，大众媒体后+3。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_THEOLOGY_NAME" Language="en_US"><Text>Theology Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_THEOLOGY_NAME" Language="zh_Hans_CN"><Text>神学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_THEOLOGY_NAME" Language="en_US"><Text>Theology</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_THEOLOGY_NAME" Language="zh_Hans_CN"><Text>神学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_THEOLOGY_DESCRIPTION" Language="en_US"><Text>+2 [ICON_FAITH] Faith from City Center.[NEWLINE]Improvements: +1 after Mysticism, +2 after Theology, +3 after Reformed Church.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_THEOLOGY_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+2[ICON_FAITH]信仰。[NEWLINE]解锁神秘主义后改良设施+1[ICON_FAITH]信仰，神学后+2，归正会后+3。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_AGRICULTURE_NAME" Language="en_US"><Text>Agriculture Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_AGRICULTURE_NAME" Language="zh_Hans_CN"><Text>农业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_AGRICULTURE_NAME" Language="en_US"><Text>Agriculture</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_AGRICULTURE_NAME" Language="zh_Hans_CN"><Text>农业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_AGRICULTURE_DESCRIPTION" Language="en_US"><Text>+1 [ICON_FOOD] Food +1 [ICON_HOUSING] Housing from City Center (+1 Food each after Pottery, Irrigation).[NEWLINE]Improvements: +1 after Code of Laws, +2 after Feudalism, +3 after Replaceable Parts.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_AGRICULTURE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_FOOD]粮食+1[ICON_HOUSING]住房。解锁制陶术、灌溉后市中心各再+1[ICON_FOOD]。[NEWLINE]解锁法典后改良设施+1[ICON_FOOD]粮食，封建主义后+2，零件规格化后+3。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_INDUSTRY_NAME" Language="en_US"><Text>Industry Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_INDUSTRY_NAME" Language="zh_Hans_CN"><Text>工业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_INDUSTRY_NAME" Language="en_US"><Text>Industry</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_INDUSTRY_NAME" Language="zh_Hans_CN"><Text>工业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_INDUSTRY_DESCRIPTION" Language="en_US"><Text>+1 [ICON_PRODUCTION] Production from City Center (+1 each after Craftsmanship, Electricity).[NEWLINE]Improvements: +1 after Apprenticeship, +2 after Industrialization, +3 after Nuclear Fission.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_PRODUCTION]生产力。解锁技艺、电力后市中心各再+1[ICON_PRODUCTION]。[NEWLINE]解锁学徒后改良设施+1[ICON_PRODUCTION]生产力，工业化后+2，核裂变后+3。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_COMMERCE_NAME" Language="en_US"><Text>Commerce Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_COMMERCE_NAME" Language="zh_Hans_CN"><Text>商业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_COMMERCE_NAME" Language="en_US"><Text>Commerce</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_COMMERCE_NAME" Language="zh_Hans_CN"><Text>商业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_COMMERCE_DESCRIPTION" Language="en_US"><Text>+2 [ICON_GOLD] Gold from City Center (+1 each after Currency, Banking).[NEWLINE]Improvements: +1 after Foreign Trade, +2 after Mercantilism, +3 after Capitalism.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_COMMERCE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+2[ICON_GOLD]金币。解锁货币、银行业后市中心各再+1[ICON_GOLD]。[NEWLINE]解锁对外贸易后改良设施+1[ICON_GOLD]金币，重商主义后+2，资本主义后+3。</Text></Row>
+		<Row Tag="LOC_LEADER_LW_MILITARY_NAME" Language="en_US"><Text>Military Player</Text></Row>
+		<Row Tag="LOC_LEADER_LW_MILITARY_NAME" Language="zh_Hans_CN"><Text>军事白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_MILITARY_NAME" Language="en_US"><Text>Military</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_MILITARY_NAME" Language="zh_Hans_CN"><Text>军事白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_MILITARY_DESCRIPTION" Language="en_US"><Text>+1 [ICON_GOLD] Gold from City Center.[NEWLINE]+1 [ICON_STRENGTH] Combat Strength per unlock: Military Tradition, Bronze Working, Iron Working, Military Engineering, Tactics, Military Science (max +6).</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW_MILITARY_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_GOLD]金币。[NEWLINE]解锁军事传统、铸铜术、炼铁术、军事工程学、战术、军事学后各给军事单位+1[ICON_STRENGTH]战斗力（最高+6）。</Text></Row>
+	</LocalizedText>
+</GameData>

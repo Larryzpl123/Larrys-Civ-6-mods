@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ==================== ENGLISH ==================== -->
+
+		<Row Tag="LOC_LEADER_ROMULUS_NAME" Language="en_US">
+			<Text>Romulus</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_ROMULUS_NAME" Language="en_US">
+			<Text>Father of Rome</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ROMULUS_DESCRIPTION" Language="en_US">
+			<Text>The Government Plaza and its buildings each grant melee units +1 [ICON_Strength] Combat Strength. Each district in the [ICON_Capital] Capital provides +1 [ICON_Food] Food and +1 [ICON_Production] Production. Domestic [ICON_TradeRoute] Trade Routes to the [ICON_Capital] Capital gain +0.5 [ICON_Food] Food, +0.5 [ICON_Production] Production, and +0.5 [ICON_Gold] Gold per specialty district in the Capital.</Text>
+		</Row>
+
+		<!-- Agenda -->
+		<Row Tag="LOC_AGENDA_ROMULUS_NAME" Language="en_US">
+			<Text>Eternal Foundation</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ROMULUS_DESCRIPTION" Language="en_US">
+			<Text>Respects civilizations with strong military forces. Dislikes those with weak armies.</Text>
+		</Row>
+
+		<!-- Diplomacy -->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROMULUS_REASON_ANY" Language="en_US">
+			<Text>Your military strength is admirable. Rome approves.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROMULUS_REASON_ANY" Language="en_US">
+			<Text>Your army is pathetically weak. Build more soldiers or face the consequences.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMULUS_LIKES_MILITARY" Language="en_US">
+			<Text>Romulus respects your military strength.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMULUS_DISLIKES_WEAK" Language="en_US">
+			<Text>Romulus looks down on your weak army.</Text>
+		</Row>
+
+		<!-- Unit Ability (shared by all 4 Gov Plaza abilities) -->
+		<Row Tag="LOC_ABILITY_ROMULUS_GOV_NAME" Language="en_US">
+			<Text>Father of Rome</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ROMULUS_GOV_DESC" Language="en_US">
+			<Text>+1 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+
+		<!-- Loading Screen -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ROMULUS" Language="en_US">
+			<Text>Mighty Romulus, legendary founder of the Eternal City, your people look to you for strength and vision. Build Rome into a beacon of civilization — invest in your Government Plaza to empower your warriors, fortify your capital with districts that fuel your economy through trade, and lead your melee forces to glory on the battlefield. The world awaits the mark of Rome!</Text>
+		</Row>
+
+		<!-- ==================== CHINESE SIMPLIFIED ==================== -->
+
+		<Row Tag="LOC_LEADER_ROMULUS_NAME" Language="zh_Hans_CN">
+			<Text>罗慕路斯</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_ROMULUS_NAME" Language="zh_Hans_CN">
+			<Text>罗马之父</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ROMULUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>市政广场及其建筑各为近战单位提供 +1 [ICON_Strength] 战斗力。[ICON_Capital] 首都每个区域提供 +1 [ICON_Food] 粮食和 +1 [ICON_Production] 生产力。首都 [ICON_Capital] 每个专业化区域给通往首都 [ICON_Capital] 的国内贸易路线 [ICON_TradeRoute] +0.5 [ICON_Food] 粮食、+0.5 [ICON_Production] 生产力，+0.5 [ICON_Gold] 金币。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ROMULUS_NAME" Language="zh_Hans_CN">
+			<Text>永恒之基</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ROMULUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尊重拥有强大军事力量的文明，鄙视军力薄弱的国家。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROMULUS_REASON_ANY" Language="zh_Hans_CN">
+			<Text>你的军事力量令人钦佩。罗马认可你。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROMULUS_REASON_ANY" Language="zh_Hans_CN">
+			<Text>你的军队弱得可悲。多造些士兵，否则承担后果。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMULUS_LIKES_MILITARY" Language="zh_Hans_CN">
+			<Text>罗慕路斯尊重你的军事实力。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMULUS_DISLIKES_WEAK" Language="zh_Hans_CN">
+			<Text>罗慕路斯看不起你薄弱的军队。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_ROMULUS_GOV_NAME" Language="zh_Hans_CN">
+			<Text>罗马之父</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ROMULUS_GOV_DESC" Language="zh_Hans_CN">
+			<Text>[ICON_Strength] 战斗力+1。</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_ROMULUS" Language="zh_Hans_CN">
+			<Text>伟大的罗慕路斯，永恒之城的传奇建立者，你的人民期盼着你的力量与远见。将罗马建设为文明的灯塔——建设市政广场以增强你的勇士，用区域强化首都、通过贸易驱动经济，率领近战部队在战场上赢得荣耀。世界正等待着罗马的印记！</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_LEADER_CAESAR_GREAT_NAME" Language="en_US">
+      <Text>Caesar the Great</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_CAESAR_GREAT_NAME" Language="zh_Hans_CN">
+      <Text>凯撒大帝</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_CAESAR_GREAT_NAME" Language="en_US">
+      <Text>Veni, Vidi, Vici</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_CAESAR_GREAT_NAME" Language="zh_Hans_CN">
+      <Text>我来，我见，我征服</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_CAESAR_GREAT_DESCRIPTION" Language="en_US">
+      <Text>Start with Eureka for Bronze Working and Iron Working. After researching Political Philosophy, melee units gain +3 [ICON_Strength] Combat Strength. Encampment and its buildings have no maintenance cost. Cities with a Barracks or Stable but without a Commercial Hub or Harbor gain +1 [ICON_TradeRoute] Trade Route.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_CAESAR_GREAT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>开局获得铸铜术和炼铁术的尤里卡。研究政治哲学后，近战单位+3 [ICON_Strength] 战斗力。军营及其建筑不需要维护费。拥有兵营或马厩但没有商业中心和港口的城市+1 [ICON_TradeRoute] 贸易路线。</Text>
+    </Row>
+
+    <Row Tag="LOC_AGENDA_CAESAR_MILITARY_GLORY_NAME" Language="en_US">
+      <Text>Military Glory</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CAESAR_MILITARY_GLORY_NAME" Language="zh_Hans_CN">
+      <Text>军事荣耀</Text>
+    </Row>
+
+    <Row Tag="LOC_AGENDA_CAESAR_MILITARY_GLORY_DESCRIPTION" Language="en_US">
+      <Text>Respects civilizations with strong military forces. Dislikes civilizations that neglect their armed forces.</Text>
+    </Row>
+    <Row Tag="LOC_AGENDA_CAESAR_MILITARY_GLORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>尊重拥有强大军事力量的文明。不喜欢忽视武装力量的文明。</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

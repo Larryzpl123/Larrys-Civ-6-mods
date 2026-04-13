@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b2c3d4e5-6789-abcd-ef01-223344556677" version="1">
+  <Properties>
+    <n>LOC_LW2_MOD_NAME</n>
+    <Description>LOC_LW2_MOD_DESCRIPTION</Description>
+    <Teaser>LOC_LW2_MOD_TEASER</Teaser>
+    <Authors>Larry (自用改编), 原作: 机动战士高俅 (1132)</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_LW2_MOD_NAME"><en_US>Larry's Whiteboard Civ (2)</en_US><zh_Hans_CN>自用卤味白板合集（二）</zh_Hans_CN></Text>
+    <Text id="LOC_LW2_MOD_DESCRIPTION"><en_US>7 whiteboard civs with Classical Era yield activation. Based on 机动战士高俅's mod.</en_US><zh_Hans_CN>7个卤味白板，古典时代启动全地块产出。基于机动战士高俅的白板合集改编。</zh_Hans_CN></Text>
+    <Text id="LOC_LW2_MOD_TEASER"><en_US>7 whiteboard civs (2).</en_US><zh_Hans_CN>卤味白板（二）。</zh_Hans_CN></Text>
+  </LocalizedText>
+  <ActionCriteria><Criteria id="LW2_LC"><LeaderPlayable>StandardPlayers::LEADER_LW2_SCIENCE,StandardPlayers::LEADER_LW2_CULTURE,StandardPlayers::LEADER_LW2_THEOLOGY,StandardPlayers::LEADER_LW2_AGRICULTURE,StandardPlayers::LEADER_LW2_INDUSTRY,StandardPlayers::LEADER_LW2_COMMERCE,StandardPlayers::LEADER_LW2_MILITARY,Players:Expansion1_Players::LEADER_LW2_SCIENCE,Players:Expansion1_Players::LEADER_LW2_CULTURE,Players:Expansion1_Players::LEADER_LW2_THEOLOGY,Players:Expansion1_Players::LEADER_LW2_AGRICULTURE,Players:Expansion1_Players::LEADER_LW2_INDUSTRY,Players:Expansion1_Players::LEADER_LW2_COMMERCE,Players:Expansion1_Players::LEADER_LW2_MILITARY,Players:Expansion2_Players::LEADER_LW2_SCIENCE,Players:Expansion2_Players::LEADER_LW2_CULTURE,Players:Expansion2_Players::LEADER_LW2_THEOLOGY,Players:Expansion2_Players::LEADER_LW2_AGRICULTURE,Players:Expansion2_Players::LEADER_LW2_INDUSTRY,Players:Expansion2_Players::LEADER_LW2_COMMERCE,Players:Expansion2_Players::LEADER_LW2_MILITARY</LeaderPlayable></Criteria></ActionCriteria>
+  <Files>
+    <File>LW2_Config.xml</File><File>LW2_ConfigText.xml</File><File>LW2_Civ.xml</File>
+    <File>LW2_Leaders.xml</File><File>LW2_Gameplay.sql</File><File>LW2_Text.xml</File>
+    <File>Database/color.sql</File><File>Icons/Icons.xml</File>
+  </Files>
+  <FrontEndActions>
+    <UpdateDatabase id="LW2_FE"><File>LW2_Config.xml</File></UpdateDatabase>
+    <UpdateText id="LW2_FT"><File>LW2_ConfigText.xml</File></UpdateText>
+    <UpdateColors id="LW2_FC"><File>Database/color.sql</File></UpdateColors>
+    <UpdateIcons id="LW2_FI"><File>Icons/Icons.xml</File></UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="LW2_IG"><Criteria>LW2_LC</Criteria><File>LW2_Civ.xml</File><File>LW2_Leaders.xml</File></UpdateDatabase>
+    <UpdateDatabase id="LW2_GP"><Criteria>LW2_LC</Criteria><File>LW2_Gameplay.sql</File></UpdateDatabase>
+    <UpdateText id="LW2_TX"><Criteria>LW2_LC</Criteria><File>LW2_ConfigText.xml</File><File>LW2_Text.xml</File></UpdateText>
+    <UpdateIcons id="LW2_IC"><Criteria>LW2_LC</Criteria><File>Icons/Icons.xml</File></UpdateIcons>
+  </InGameActions>
+</Mod>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<RequirementSets>
+		<Row RequirementSetId="RS_WHQ_TUNDRA" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="RS_WHQ_TUNDRA_HILLS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="RS_WHQ_TUNDRA" RequirementId="REQ_WHQ_TERRAIN_IS_TUNDRA" />
+		<Row RequirementSetId="RS_WHQ_TUNDRA_HILLS" RequirementId="REQ_WHQ_TERRAIN_IS_TUNDRA_HILLS" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_WHQ_TERRAIN_IS_TUNDRA" RequirementType="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES" />
+		<Row RequirementId="REQ_WHQ_TERRAIN_IS_TUNDRA_HILLS" RequirementType="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_WHQ_TERRAIN_IS_TUNDRA" Name="TerrainType" Value="TERRAIN_TUNDRA" />
+		<Row RequirementId="REQ_WHQ_TERRAIN_IS_TUNDRA_HILLS" Name="TerrainType" Value="TERRAIN_TUNDRA_HILLS" />
+	</RequirementArguments>
+
+	<Modifiers>
+		<Row ModifierId="WHQ_TUNDRA_PROD"   ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_WHQ_TUNDRA" />
+		<Row ModifierId="WHQ_TUNDRA_FOOD"   ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_WHQ_TUNDRA" />
+		<Row ModifierId="WHQ_TUNDRA_GOLD"   ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_WHQ_TUNDRA" />
+		<Row ModifierId="WHQ_TUNDRA_H_PROD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_WHQ_TUNDRA_HILLS" />
+		<Row ModifierId="WHQ_TUNDRA_H_FOOD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_WHQ_TUNDRA_HILLS" />
+		<Row ModifierId="WHQ_TUNDRA_H_GOLD" ModifierType="MODIFIER_PLAYER_ADJUST_PLOT_YIELD" SubjectRequirementSetId="RS_WHQ_TUNDRA_HILLS" />
+		<Row ModifierId="WHQ_POP_PROD"      ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION" />
+		<Row ModifierId="WHQ_POP_SCIENCE"   ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION" />
+		<Row ModifierId="WHQ_POP_CULTURE"   ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION" />
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="WHQ_TUNDRA_PROD"   Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="WHQ_TUNDRA_PROD"   Name="Amount"    Value="-1" />
+		<Row ModifierId="WHQ_TUNDRA_FOOD"   Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="WHQ_TUNDRA_FOOD"   Name="Amount"    Value="1" />
+		<Row ModifierId="WHQ_TUNDRA_GOLD"   Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="WHQ_TUNDRA_GOLD"   Name="Amount"    Value="1" />
+		<Row ModifierId="WHQ_TUNDRA_H_PROD" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="WHQ_TUNDRA_H_PROD" Name="Amount"    Value="-1" />
+		<Row ModifierId="WHQ_TUNDRA_H_FOOD" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="WHQ_TUNDRA_H_FOOD" Name="Amount"    Value="1" />
+		<Row ModifierId="WHQ_TUNDRA_H_GOLD" Name="YieldType" Value="YIELD_GOLD" />
+		<Row ModifierId="WHQ_TUNDRA_H_GOLD" Name="Amount"    Value="1" />
+		<Row ModifierId="WHQ_POP_PROD"      Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="WHQ_POP_PROD"      Name="Amount"    Value="0.5" />
+		<Row ModifierId="WHQ_POP_SCIENCE"   Name="YieldType" Value="YIELD_SCIENCE" />
+		<Row ModifierId="WHQ_POP_SCIENCE"   Name="Amount"    Value="0.5" />
+		<Row ModifierId="WHQ_POP_CULTURE"   Name="YieldType" Value="YIELD_CULTURE" />
+		<Row ModifierId="WHQ_POP_CULTURE"   Name="Amount"    Value="0.5" />
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_TUNDRA_PROD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_TUNDRA_FOOD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_TUNDRA_GOLD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_TUNDRA_H_PROD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_TUNDRA_H_FOOD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_TUNDRA_H_GOLD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_POP_PROD" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_POP_SCIENCE" />
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" ModifierId="WHQ_POP_CULTURE" />
+	</TraitModifiers>
+</GameData>

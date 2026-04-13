@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_WHQ" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_WHQ_FROZEN_HARVEST" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_WHQ" Name="LOC_LEADER_WHQ_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4" />
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_WHQ" Quote="LOC_LEADER_WHQ_QUOTE" />
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" Name="LOC_TRAIT_LEADER_WHQ_NAME" Description="LOC_TRAIT_LEADER_WHQ_DESCRIPTION" />
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_WHQ" TraitType="TRAIT_LEADER_WHQ_FROZEN_HARVEST" />
+	</LeaderTraits>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_RUSSIA" LeaderType="LEADER_WHQ" CapitalName="LOC_CITY_NAME_ST_PETERSBURG" />
+	</CivilizationLeaders>
+</GameData>

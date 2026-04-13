@@ -1,0 +1,17 @@
+"workshopitem"
+{
+	"appid"		"289070"
+	"publishedfileid"		"3678212652"
+	"contentfolder"		"/Users/larryzhong/Desktop/Ambigatus_Gaul"
+	"previewfile"		""
+	"visibility"		"0"
+	"title"		"Ambigatus, New Leader of Gaul"
+	"description"		"Leader Ability - Prosperous Mines
+Mines receive -1 Production, +1 Food, and +1 Gold."
+	"changenote"		"2.0"
+	"tags"
+	{
+		"0"		"Mod"
+		"1"		"Leaders"
+	}
+}

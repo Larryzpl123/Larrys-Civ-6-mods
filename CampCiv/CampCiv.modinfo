@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="A7C3E219-5F8B-4D12-9A6E-3B7F1C8D2E4A" version="1">
+	<Properties>
+		<Name>Larry's Camp Civilization</Name>
+		<Description>CampCiv — Larry leader with Precise Layout (close cities +10% yields scaling with pop; far cities -100% yields; settlers +1 movement/turn). Civ ability: City yields (+1 Foodm, +1 Gold) and Encampment yields (+1 Production, +1 Gold).</Description>
+		<Authors>Larry</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+
+	<Dependencies>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+	</Dependencies>
+
+	<Files>
+		<File>Core/Camp_Config.xml</File>
+		<File>Core/Camp_GameDefines.sql</File>
+		<File>Core/Camp_GameText.xml</File>
+	</Files>
+
+	<FrontEndActions>
+		<UpdateDatabase id="Camp_FrontEnd_Config">
+			<File>Core/Camp_Config.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="Camp_FrontEnd_Text">
+			<File>Core/Camp_GameText.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<InGameActions>
+		<UpdateDatabase id="Camp_InGame_Defines">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<File>Core/Camp_GameDefines.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="Camp_InGame_Text">
+			<File>Core/Camp_GameText.xml</File>
+		</UpdateText>
+	</InGameActions>
+</Mod>

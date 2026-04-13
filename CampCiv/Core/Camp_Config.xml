@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LARRY_CAMP</CivilizationType>
+			<LeaderType>LEADER_LARRY_CAMP</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LARRY_CAMP_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ZULU</CivilizationIcon>
+			<LeaderName>LOC_LEADER_LARRY_CAMP_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SHAKA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LARRY_CAMP_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LARRY_CAMP_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ZULU</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_LARRY_CAMP_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_LARRY_CAMP_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SHAKA</LeaderAbilityIcon>
+		</Row>
+	</Players>
+</GameData>

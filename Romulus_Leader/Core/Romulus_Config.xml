@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<LeaderType>LEADER_ROMULUS</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ROME_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ROME</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ROMULUS_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ROMULUS</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ROME_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ROME_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ROME</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ROMULUS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ROMULUS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ROMULUS</LeaderAbilityIcon>
+			<Domain>Players:Expansion2_Players</Domain>
+		</Row>
+	</Players>
+</GameData>

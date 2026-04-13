@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CITY_NAME_LW_CAPITAL" Language="en_US"><Text>Capital</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_CAPITAL" Language="zh_Hans_CN"><Text>首都</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_1" Language="en_US"><Text>City 1</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_1" Language="zh_Hans_CN"><Text>1分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_2" Language="en_US"><Text>City 2</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_2" Language="zh_Hans_CN"><Text>2分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_3" Language="en_US"><Text>City 3</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_3" Language="zh_Hans_CN"><Text>3分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_4" Language="en_US"><Text>City 4</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_4" Language="zh_Hans_CN"><Text>4分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_5" Language="en_US"><Text>City 5</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_5" Language="zh_Hans_CN"><Text>5分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_6" Language="en_US"><Text>City 6</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_6" Language="zh_Hans_CN"><Text>6分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_7" Language="en_US"><Text>City 7</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_7" Language="zh_Hans_CN"><Text>7分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_8" Language="en_US"><Text>City 8</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_8" Language="zh_Hans_CN"><Text>8分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_9" Language="en_US"><Text>City 9</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_9" Language="zh_Hans_CN"><Text>9分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_10" Language="en_US"><Text>City 10</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_10" Language="zh_Hans_CN"><Text>10分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_11" Language="en_US"><Text>City 11</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_11" Language="zh_Hans_CN"><Text>11分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_12" Language="en_US"><Text>City 12</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_12" Language="zh_Hans_CN"><Text>12分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_13" Language="en_US"><Text>City 13</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_13" Language="zh_Hans_CN"><Text>13分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_14" Language="en_US"><Text>City 14</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_14" Language="zh_Hans_CN"><Text>14分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_15" Language="en_US"><Text>City 15</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_15" Language="zh_Hans_CN"><Text>15分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_16" Language="en_US"><Text>City 16</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_16" Language="zh_Hans_CN"><Text>16分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_17" Language="en_US"><Text>City 17</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_17" Language="zh_Hans_CN"><Text>17分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_18" Language="en_US"><Text>City 18</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_18" Language="zh_Hans_CN"><Text>18分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_19" Language="en_US"><Text>City 19</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_19" Language="zh_Hans_CN"><Text>19分</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_20" Language="en_US"><Text>City 20</Text></Row>
+		<Row Tag="LOC_CITY_NAME_LW_20" Language="zh_Hans_CN"><Text>20分</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_M1" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_M1" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_M2" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_M2" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_F1" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_F1" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_F2" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CITIZEN_LW_F2" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_SCIENCE_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Science player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_SCIENCE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_CULTURE_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Culture player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_CULTURE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_THEOLOGY_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Theology player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_THEOLOGY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_AGRICULTURE_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Agriculture player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_AGRICULTURE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_INDUSTRY_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Industry player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_INDUSTRY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_COMMERCE_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Commerce player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_COMMERCE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_MILITARY_CHAPTER_CAPSULE_BODY" Language="en_US"><Text>Military player.</Text></Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LW_MILITARY_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN"><Text>你就是这个玩家。</Text></Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LW_BAIBAN_CHAPTER_HISTORY_PARA_1" Language="en_US"><Text>Whiteboard civ. Original by 机动战士高俅.</Text></Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LW_BAIBAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN"><Text>卤味白板文明。原作：机动战士高俅。</Text></Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LW2_NAME" Language="en_US"><Text>Whiteboard Civ II</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW2_NAME" Language="zh_Hans_CN"><Text>卤味白板文明（二）</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW2_DESCRIPTION" Language="en_US"><Text>A whiteboard civilization (II).</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW2_DESCRIPTION" Language="zh_Hans_CN"><Text>白板文明（二）。</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW2_ADJECTIVE" Language="en_US"><Text>Your</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_LW2_ADJECTIVE" Language="zh_Hans_CN"><Text>你的</Text></Row>
+		<Row Tag="LOC_TRAIT_CIV_LW2_NAME" Language="en_US"><Text>Whiteboard II</Text></Row>
+		<Row Tag="LOC_TRAIT_CIV_LW2_NAME" Language="zh_Hans_CN"><Text>白板（二）</Text></Row>
+		<Row Tag="LOC_TRAIT_CIV_LW2_DESCRIPTION" Language="en_US"><Text>No unique civilization abilities.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIV_LW2_DESCRIPTION" Language="zh_Hans_CN"><Text>无文明特色能力。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_SCIENCE_NAME" Language="en_US"><Text>Science Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_SCIENCE_NAME" Language="zh_Hans_CN"><Text>科学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_SCIENCE_NAME" Language="en_US"><Text>Science</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_SCIENCE_NAME" Language="zh_Hans_CN"><Text>科学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_SCIENCE_DESCRIPTION" Language="en_US"><Text>+1 [ICON_SCIENCE] 科技 from City Center. After Political Philosophy: +1 [ICON_SCIENCE] 科技 to all plots.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_SCIENCE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_SCIENCE]科技。[NEWLINE]解锁政治哲学后所有地块+1[ICON_SCIENCE]科技。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_CULTURE_NAME" Language="en_US"><Text>Culture Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_CULTURE_NAME" Language="zh_Hans_CN"><Text>文学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_CULTURE_NAME" Language="en_US"><Text>Culture</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_CULTURE_NAME" Language="zh_Hans_CN"><Text>文学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_CULTURE_DESCRIPTION" Language="en_US"><Text>+1 [ICON_CULTURE] 文化 from City Center. After Political Philosophy: +1 [ICON_CULTURE] 文化 to all plots.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_CULTURE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_CULTURE]文化。[NEWLINE]解锁戏剧与诗歌后所有地块+1[ICON_CULTURE]文化。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_THEOLOGY_NAME" Language="en_US"><Text>Theology Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_THEOLOGY_NAME" Language="zh_Hans_CN"><Text>神学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_THEOLOGY_NAME" Language="en_US"><Text>Theology</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_THEOLOGY_NAME" Language="zh_Hans_CN"><Text>神学白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_THEOLOGY_DESCRIPTION" Language="en_US"><Text>+2 [ICON_FAITH] 信仰 from City Center. After Political Philosophy: +1 [ICON_FAITH] 信仰 to all plots.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_THEOLOGY_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+2[ICON_FAITH]信仰。[NEWLINE]解锁政治哲学后所有地块+1[ICON_FAITH]信仰。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_AGRICULTURE_NAME" Language="en_US"><Text>Agriculture Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_AGRICULTURE_NAME" Language="zh_Hans_CN"><Text>农业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_AGRICULTURE_NAME" Language="en_US"><Text>Agriculture</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_AGRICULTURE_NAME" Language="zh_Hans_CN"><Text>农业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_AGRICULTURE_DESCRIPTION" Language="en_US"><Text>+1 [ICON_FOOD] 粮食 +1 [ICON_HOUSING] Housing from City Center. After Political Philosophy: +1 [ICON_FOOD] 粮食 to all plots.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_AGRICULTURE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_FOOD]粮食+1[ICON_HOUSING]住房。[NEWLINE]解锁政治哲学后所有地块+1[ICON_FOOD]粮食。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_INDUSTRY_NAME" Language="en_US"><Text>Industry Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_INDUSTRY_NAME" Language="zh_Hans_CN"><Text>工业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_INDUSTRY_NAME" Language="en_US"><Text>Industry</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_INDUSTRY_NAME" Language="zh_Hans_CN"><Text>工业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_INDUSTRY_DESCRIPTION" Language="en_US"><Text>+1 [ICON_PRODUCTION] 生产力 from City Center. After Political Philosophy: +1 [ICON_PRODUCTION] 生产力 to all plots.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+1[ICON_PRODUCTION]生产力。[NEWLINE]解锁政治哲学后所有地块+1[ICON_PRODUCTION]生产力。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_COMMERCE_NAME" Language="en_US"><Text>Commerce Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_COMMERCE_NAME" Language="zh_Hans_CN"><Text>商业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_COMMERCE_NAME" Language="en_US"><Text>Commerce</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_COMMERCE_NAME" Language="zh_Hans_CN"><Text>商业白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_COMMERCE_DESCRIPTION" Language="en_US"><Text>+2 [ICON_GOLD] 金币 from City Center. After Political Philosophy: +3 [ICON_GOLD] 金币 to all plots.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_COMMERCE_DESCRIPTION" Language="zh_Hans_CN"><Text>市中心+2[ICON_GOLD]金币。[NEWLINE]解锁政治哲学后所有地块+3[ICON_GOLD]金币。</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_MILITARY_NAME" Language="en_US"><Text>Military Player II</Text></Row>
+		<Row Tag="LOC_LEADER_LW2_MILITARY_NAME" Language="zh_Hans_CN"><Text>军事白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_MILITARY_NAME" Language="en_US"><Text>Military</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_MILITARY_NAME" Language="zh_Hans_CN"><Text>军事白板</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_MILITARY_DESCRIPTION" Language="en_US"><Text>After Political Philosophy: Encampment +1 to all yields.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LW2_MILITARY_DESCRIPTION" Language="zh_Hans_CN"><Text>解锁政治哲学后，军营+1所有产出（粮食/生产力/金币/科技/文化/信仰）。</Text></Row>
+	</LocalizedText>
+</GameData>

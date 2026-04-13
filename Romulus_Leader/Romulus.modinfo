@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="53A5273E-1DCF-484F-A11E-11C938525ED0" version="1">
+  <Properties>
+    <n>Romulus - Leader for Rome</n>
+    <Description>Adds Romulus as an alternate leader for Rome. Leader Ability: Father of Rome - Government Plaza and its buildings each grant melee units +1 Combat Strength (max +4). Capital gains +1 Food and +1 Production per district. Domestic trade routes to the capital gain +0.5 Food, +0.5 Production, and +0.5 Gold per specialty district.</Description>
+    <Authors>Larry</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
+  </Dependencies>
+  <Files>
+    <File>Core/Romulus_Config.xml</File>
+    <File>Core/Romulus_Leaders.sql</File>
+    <File>Core/Romulus_Abilities.xml</File>
+    <File>Core/Romulus_GameText.xml</File>
+    <File>Icons/Romulus_Icons.xml</File>
+    <File>Icons/Romulus_Icon_256.dds</File>
+    <File>Icons/Romulus_Icon_80.dds</File>
+    <File>Icons/Romulus_Icon_64.dds</File>
+    <File>Icons/Romulus_Icon_50.dds</File>
+    <File>Icons/Romulus_Icon_48.dds</File>
+    <File>Icons/Romulus_Icon_36.dds</File>
+    <File>Icons/Romulus_Icon_32.dds</File>
+    <File>Icons/Romulus_Icon_22.dds</File>
+    <File>Icons/Romulus_Portrait.dds</File>
+  </Files>
+  <FrontEndActions>
+    <ImportFiles id="RomulusImportFE">
+      <File>Icons/Romulus_Icon_256.dds</File>
+      <File>Icons/Romulus_Icon_80.dds</File>
+      <File>Icons/Romulus_Icon_64.dds</File>
+      <File>Icons/Romulus_Icon_50.dds</File>
+      <File>Icons/Romulus_Icon_48.dds</File>
+      <File>Icons/Romulus_Icon_36.dds</File>
+      <File>Icons/Romulus_Icon_32.dds</File>
+      <File>Icons/Romulus_Icon_22.dds</File>
+      <File>Icons/Romulus_Portrait.dds</File>
+    </ImportFiles>
+    <UpdateIcons id="RomulusIconsFE">
+      <File>Icons/Romulus_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="RomulusConfig">
+      <File>Core/Romulus_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="RomulusConfigText">
+      <File>Core/Romulus_GameText.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <ImportFiles id="RomulusImportIG">
+      <File>Icons/Romulus_Icon_256.dds</File>
+      <File>Icons/Romulus_Icon_80.dds</File>
+      <File>Icons/Romulus_Icon_64.dds</File>
+      <File>Icons/Romulus_Icon_50.dds</File>
+      <File>Icons/Romulus_Icon_48.dds</File>
+      <File>Icons/Romulus_Icon_36.dds</File>
+      <File>Icons/Romulus_Icon_32.dds</File>
+      <File>Icons/Romulus_Icon_22.dds</File>
+      <File>Icons/Romulus_Portrait.dds</File>
+    </ImportFiles>
+    <UpdateIcons id="RomulusIconsIG">
+      <File>Icons/Romulus_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="RomulusLeaders" priority="10">
+      <File>Core/Romulus_Leaders.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RomulusAbilities" priority="20">
+      <File>Core/Romulus_Abilities.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="RomulusGameplayText">
+      <File>Core/Romulus_GameText.xml</File>
+    </UpdateText>
+  </InGameActions>
+</Mod>

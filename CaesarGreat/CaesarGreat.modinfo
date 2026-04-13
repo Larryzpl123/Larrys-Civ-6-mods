@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="26A517FF-03C6-4D1C-A3DD-69E6B05F455E" version="2">
+  <Properties>
+    <n>Caesar the Great - Leader of Rome</n>
+    <Teaser>Julius Caesar leads Rome with military might and iron discipline.</Teaser>
+    <Description>Julius Caesar leads Rome. Melee units gain +3 Combat Strength after Political Philosophy. Encampment buildings have no maintenance. Barracks/Stable grant trade routes in cities without Commercial Hub or Harbor.</Description>
+    <Authors>Larry</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <Files>
+    <File>Data/CaesarGreat_FrontEnd.sql</File>
+    <File>Data/CaesarGreat_InGame.sql</File>
+    <File>Text/CaesarGreat_Text.xml</File>
+    <File>Icons/CaesarGreat_Icons.xml</File>
+    <File>CaesarGreat_Icon_256.dds</File>
+    <File>CaesarGreat_Icon_80.dds</File>
+    <File>CaesarGreat_Icon_64.dds</File>
+    <File>CaesarGreat_Icon_50.dds</File>
+    <File>CaesarGreat_Icon_48.dds</File>
+    <File>CaesarGreat_Icon_36.dds</File>
+    <File>CaesarGreat_Icon_32.dds</File>
+  </Files>
+
+  <FrontEndActions>
+    <UpdateText id="CaesarGreat_FrontEnd_Text">
+      <File>Text/CaesarGreat_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="CaesarGreat_FrontEnd_Icons">
+      <File>Icons/CaesarGreat_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="CaesarGreat_FrontEnd">
+      <File>Data/CaesarGreat_FrontEnd.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+
+  <InGameActions>
+    <UpdateText id="CaesarGreat_InGame_Text">
+      <File>Text/CaesarGreat_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="CaesarGreat_InGame_Icons">
+      <File>Icons/CaesarGreat_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="CaesarGreat_InGame">
+      <File>Data/CaesarGreat_InGame.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+</Mod>

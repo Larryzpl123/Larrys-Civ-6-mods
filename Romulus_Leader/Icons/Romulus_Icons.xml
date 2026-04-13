@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_256.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_80.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_64.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_50.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_48.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_36.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_32.dds"/>
+		<Row Name="ICON_ATLAS_ROMULUS" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Romulus_Icon_22.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_ROMULUS" Atlas="ICON_ATLAS_ROMULUS" Index="0"/>
+	</IconDefinitions>
+</GameData>

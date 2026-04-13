@@ -1,0 +1,17 @@
+"workshopitem"
+{
+	"appid"		"289070"
+	"publishedfileid"		"3683690379"
+	"contentfolder"		"/Users/larryzhong/Desktop/CaesarGreat"
+	"previewfile"		""
+	"visibility"		"0"
+	"title"		"Caesar the Great, New Leader of Rome"
+	"description"		"Leader Ability - Veni, Vidi, Vici\nStarts with Eureka for Bronze Working and Iron Working. Melee units receive +3 Combat Strength after researching Political Philosophy. Encampment and its buildings have no maintenance cost. Cities with a Barracks or Stable but without a Commercial Hub or Harbor gain +1 Trade Route."
+	"changenote"		"v2: Balance update - melee bonus requires Political Philosophy, encampment maintenance removed, conditional trade routes added"
+	"tags"
+	{
+		"0"		"Mod"
+		"1"		"Leaders"
+		"2"		"Civilizations"
+	}
+}

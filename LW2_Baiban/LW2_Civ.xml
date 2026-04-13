@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_LW2_BAIBAN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIV_LW2" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" Name="LOC_CIVILIZATION_LW2_NAME" Description="LOC_CIVILIZATION_LW2_DESCRIPTION" Adjective="LOC_CIVILIZATION_LW2_ADJECTIVE" RandomCityNameDepth="2" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" Ethnicity="ETHNICITY_SOUTHAM"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_SCIENCE" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_CULTURE" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_THEOLOGY" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_AGRICULTURE" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_INDUSTRY" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_COMMERCE" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" LeaderType="LEADER_LW2_MILITARY" CapitalName="LOC_CITY_LW2_CAPITAL"/>
+	</CivilizationLeaders>
+	<Traits><Row TraitType="TRAIT_CIV_LW2" Name="LOC_TRAIT_CIV_LW2_NAME" Description="LOC_TRAIT_CIV_LW2_DESCRIPTION"/></Traits>
+	<CivilizationTraits><Row CivilizationType="CIVILIZATION_LW2_BAIBAN" TraitType="TRAIT_CIV_LW2"/></CivilizationTraits>
+	<StartBiasRivers><Row CivilizationType="CIVILIZATION_LW2_BAIBAN" Tier="1"/></StartBiasRivers>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_1"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_2"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_3"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_4"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_5"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_6"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_7"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_8"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_9"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_10"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_11"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_12"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_13"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_14"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_15"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_16"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_17"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_18"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_19"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CityName="LOC_CITY_LW2_20"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CitizenName="LOC_CIT_LW2_M1"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CitizenName="LOC_CIT_LW2_M2"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CitizenName="LOC_CIT_LW2_F1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LW2_BAIBAN" CitizenName="LOC_CIT_LW2_F2" Female="1"/>
+	</CivilizationCitizenNames>
+</GameData>

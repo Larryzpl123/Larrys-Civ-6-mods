@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CITY_LW2_CAPITAL" Language="en_US"><Text>Capital</Text></Row>
+		<Row Tag="LOC_CITY_LW2_CAPITAL" Language="zh_Hans_CN"><Text>首都</Text></Row>
+		<Row Tag="LOC_CITY_LW2_1" Language="en_US"><Text>City 1</Text></Row>
+		<Row Tag="LOC_CITY_LW2_1" Language="zh_Hans_CN"><Text>1分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_2" Language="en_US"><Text>City 2</Text></Row>
+		<Row Tag="LOC_CITY_LW2_2" Language="zh_Hans_CN"><Text>2分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_3" Language="en_US"><Text>City 3</Text></Row>
+		<Row Tag="LOC_CITY_LW2_3" Language="zh_Hans_CN"><Text>3分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_4" Language="en_US"><Text>City 4</Text></Row>
+		<Row Tag="LOC_CITY_LW2_4" Language="zh_Hans_CN"><Text>4分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_5" Language="en_US"><Text>City 5</Text></Row>
+		<Row Tag="LOC_CITY_LW2_5" Language="zh_Hans_CN"><Text>5分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_6" Language="en_US"><Text>City 6</Text></Row>
+		<Row Tag="LOC_CITY_LW2_6" Language="zh_Hans_CN"><Text>6分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_7" Language="en_US"><Text>City 7</Text></Row>
+		<Row Tag="LOC_CITY_LW2_7" Language="zh_Hans_CN"><Text>7分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_8" Language="en_US"><Text>City 8</Text></Row>
+		<Row Tag="LOC_CITY_LW2_8" Language="zh_Hans_CN"><Text>8分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_9" Language="en_US"><Text>City 9</Text></Row>
+		<Row Tag="LOC_CITY_LW2_9" Language="zh_Hans_CN"><Text>9分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_10" Language="en_US"><Text>City 10</Text></Row>
+		<Row Tag="LOC_CITY_LW2_10" Language="zh_Hans_CN"><Text>10分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_11" Language="en_US"><Text>City 11</Text></Row>
+		<Row Tag="LOC_CITY_LW2_11" Language="zh_Hans_CN"><Text>11分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_12" Language="en_US"><Text>City 12</Text></Row>
+		<Row Tag="LOC_CITY_LW2_12" Language="zh_Hans_CN"><Text>12分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_13" Language="en_US"><Text>City 13</Text></Row>
+		<Row Tag="LOC_CITY_LW2_13" Language="zh_Hans_CN"><Text>13分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_14" Language="en_US"><Text>City 14</Text></Row>
+		<Row Tag="LOC_CITY_LW2_14" Language="zh_Hans_CN"><Text>14分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_15" Language="en_US"><Text>City 15</Text></Row>
+		<Row Tag="LOC_CITY_LW2_15" Language="zh_Hans_CN"><Text>15分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_16" Language="en_US"><Text>City 16</Text></Row>
+		<Row Tag="LOC_CITY_LW2_16" Language="zh_Hans_CN"><Text>16分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_17" Language="en_US"><Text>City 17</Text></Row>
+		<Row Tag="LOC_CITY_LW2_17" Language="zh_Hans_CN"><Text>17分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_18" Language="en_US"><Text>City 18</Text></Row>
+		<Row Tag="LOC_CITY_LW2_18" Language="zh_Hans_CN"><Text>18分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_19" Language="en_US"><Text>City 19</Text></Row>
+		<Row Tag="LOC_CITY_LW2_19" Language="zh_Hans_CN"><Text>19分</Text></Row>
+		<Row Tag="LOC_CITY_LW2_20" Language="en_US"><Text>City 20</Text></Row>
+		<Row Tag="LOC_CITY_LW2_20" Language="zh_Hans_CN"><Text>20分</Text></Row>
+		<Row Tag="LOC_CIT_LW2_M1" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CIT_LW2_M1" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_CIT_LW2_M2" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CIT_LW2_M2" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_CIT_LW2_F1" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CIT_LW2_F1" Language="zh_Hans_CN"><Text>某人</Text></Row>
+		<Row Tag="LOC_CIT_LW2_F2" Language="en_US"><Text>Someone</Text></Row>
+		<Row Tag="LOC_CIT_LW2_F2" Language="zh_Hans_CN"><Text>某人</Text></Row>
+	</LocalizedText>
+</GameData>

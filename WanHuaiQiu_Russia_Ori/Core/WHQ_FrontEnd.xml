@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_RUSSIA"
+			 LeaderType="LEADER_WHQ"
+			 LeaderName="LOC_LEADER_WHQ_NAME"
+			 LeaderIcon="ICON_LEADER_PETER_GREAT"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_WHQ_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_WHQ_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_PETER_GREAT"
+			 CivilizationName="LOC_CIVILIZATION_RUSSIA_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_RUSSIA"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_RUSSIA"
+			 Portrait="LEADER_PETER_GREAT_NEUTRAL"
+			 PortraitBackground="LEADER_PETER_GREAT_BACKGROUND" />
+	</Players>
+	<PlayerItems>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_RUSSIA"
+			 LeaderType="LEADER_WHQ"
+			 Type="TRAIT_LEADER_WHQ_FROZEN_HARVEST"
+			 Name="LOC_TRAIT_LEADER_WHQ_NAME"
+			 Description="LOC_TRAIT_LEADER_WHQ_DESCRIPTION"
+			 Icon="ICON_LEADER_PETER_GREAT"
+			 SortIndex="10" />
+	</PlayerItems>
+</GameData>
